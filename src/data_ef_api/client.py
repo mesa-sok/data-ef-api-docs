@@ -36,6 +36,7 @@ class DataEFClient:
     Args:
         base_url: Root URL of the API. Defaults to ``https://data.mef.gov.kh``.
         timeout: Request timeout in seconds. Defaults to ``30``.
+        verify: Verify SSL certificates. Defaults to ``True``.
 
     Example::
 
@@ -46,8 +47,8 @@ class DataEFClient:
             print(home.model_dump())
     """
 
-    def __init__(self, base_url: str = BASE_URL, timeout: float = 30.0) -> None:
-        self._client = httpx.Client(base_url=base_url, timeout=timeout)
+    def __init__(self, base_url: str = BASE_URL, timeout: float = 30.0, verify: bool = True) -> None:
+        self._client = httpx.Client(base_url=base_url, timeout=timeout, verify=verify)
 
     # ------------------------------------------------------------------
     # Context-manager support

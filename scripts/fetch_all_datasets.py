@@ -73,7 +73,7 @@ def save_json(path: Path, obj: object) -> None:
 def fetch_all_metadata(client: DataEFClient) -> list[dict]:
     """Return every dataset metadata record using minimal API requests."""
     counts = client.get_count_data()
-    total = counts.datasets or 0
+    total = counts.get_datasets_count or 0
     log(f"\n[metadata] Total datasets reported: {total}")
 
     all_datasets: list[dict] = []
@@ -171,7 +171,7 @@ def fetch_dataset_data(client: DataEFClient, dataset_id: str) -> dict:
 def main() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-    with DataEFClient() as client:
+    with DataEFClient(verify=False) as client:
         # ── 1. Fetch metadata ────────────────────────────────────
         metadata = fetch_all_metadata(client)
         save_json(DATA_DIR / "metadata.json", metadata)
