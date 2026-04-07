@@ -1,0 +1,29 @@
+[project]
+name = "data-ef-api-docs"
+version = "0.1.0"
+description = "Scripts and documentation for the Data EF Public API (data.mef.gov.kh)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic[email]>=2.12.5",
+]
+
+[project.scripts]
+data-ef-public-datasets = "data_ef_api._scripts.public_datasets:main"
+data-ef-events-news     = "data_ef_api._scripts.events_news:main"
+data-ef-realtime-api    = "data_ef_api._scripts.realtime_api:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-httpx>=0.36.0",
+    "ruff>=0.15.9",
+]
+
+[tool.ruff]
+src = ["src"]
+line-length = 99
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
