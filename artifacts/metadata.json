@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "slug": "national-budget-law-2024",
+    "title_en": "National Budget Law 2024",
+    "title_kh": "ច្បាប់ហិរញ្ញប្បទាន ២០២៤",
+    "description_en": "Annual national budget law for fiscal year 2024, published by the Ministry of Economy and Finance.",
+    "description_kh": "ច្បាប់ស្ដីពីហិរញ្ញប្បទានសម្រាប់ឆ្នាំ ២០២៤ ចេញផ្សាយដោយក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ។",
+    "category": {
+      "id": 1,
+      "slug": "finance",
+      "name_en": "Finance",
+      "name_kh": "ហិរញ្ញវត្ថុ"
+    },
+    "organization": {
+      "id": 1,
+      "slug": "ministry-of-economy-and-finance",
+      "name_en": "Ministry of Economy and Finance",
+      "name_kh": "ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ"
+    },
+    "tags": ["budget", "law", "fiscal policy", "2024"],
+    "license": "CC-BY-4.0",
+    "created_at": "2024-01-15T08:00:00Z",
+    "updated_at": "2024-03-20T12:30:00Z"
+  },
+  {
+    "id": 2,
+    "slug": "cambodia-trade-statistics-2023",
+    "title_en": "Cambodia Trade Statistics 2023",
+    "title_kh": "ស្ថិតិពាណិជ្ជកម្មកម្ពុជា ២០២៣",
+    "description_en": "Annual trade statistics covering imports, exports, and trade balance for Cambodia in 2023.",
+    "description_kh": "ស្ថិតិពាណិជ្ជកម្មប្រចាំឆ្នាំ រួមមានការនាំចូល ការនាំចេញ និងតុល្យភាពពាណិជ្ជកម្មរបស់កម្ពុជា ក្នុងឆ្នាំ ២០២៣។",
+    "category": {
+      "id": 2,
+      "slug": "trade",
+      "name_en": "Trade",
+      "name_kh": "ពាណិជ្ជកម្ម"
+    },
+    "organization": {
+      "id": 1,
+      "slug": "ministry-of-economy-and-finance",
+      "name_en": "Ministry of Economy and Finance",
+      "name_kh": "ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ"
+    },
+    "tags": ["trade", "imports", "exports", "statistics", "2023"],
+    "license": "CC-BY-4.0",
+    "created_at": "2023-12-01T09:00:00Z",
+    "updated_at": "2024-02-15T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "slug": "exchange-rate-daily-2024",
+    "title_en": "Daily KHR Exchange Rates 2024",
+    "title_kh": "អត្រាប្ដូរប្រាក់ប្រចាំថ្ងៃ ២០២៤",
+    "description_en": "Daily official KHR exchange rates against major world currencies, published by the National Bank of Cambodia.",
+    "description_kh": "អត្រាប្ដូរប្រាក់ KHR ផ្លូវការប្រចាំថ្ងៃ ចំពោះរូបិយប័ណ្ណសំខាន់ៗ ចេញផ្សាយដោយធនាគារជាតិនៃកម្ពុជា។",
+    "category": {
+      "id": 1,
+      "slug": "finance",
+      "name_en": "Finance",
+      "name_kh": "ហិរញ្ញវត្ថុ"
+    },
+    "organization": {
+      "id": 2,
+      "slug": "national-bank-of-cambodia",
+      "name_en": "National Bank of Cambodia",
+      "name_kh": "ធនាគារជាតិនៃកម្ពុជា"
+    },
+    "tags": ["exchange rate", "KHR", "currency", "NBC"],
+    "license": "CC-BY-4.0",
+    "created_at": "2024-01-02T07:00:00Z",
+    "updated_at": "2024-04-05T07:00:00Z"
+  },
+  {
+    "id": 4,
+    "slug": "cambodia-gdp-by-sector-2023",
+    "title_en": "Cambodia GDP by Sector 2023",
+    "title_kh": "ផ.ស.ស. កម្ពុជា តាមវិស័យ ២០២៣",
+    "description_en": "Gross Domestic Product (GDP) breakdown by economic sector for Cambodia in 2023, including agriculture, industry, and services.",
+    "description_kh": "ផលិតផលក្នុងស្រុកសរុប (ផ.ស.ស.) ចែកតាមវិស័យសេដ្ឋកិច្ច ក្នុងឆ្នាំ ២០២៣ រួមមានកសិកម្ម ឧស្សាហកម្ម និងសេវាកម្ម។",
+    "category": {
+      "id": 3,
+      "slug": "economy",
+      "name_en": "Economy",
+      "name_kh": "សេដ្ឋកិច្ច"
+    },
+    "organization": {
+      "id": 3,
+      "slug": "national-institute-of-statistics",
+      "name_en": "National Institute of Statistics",
+      "name_kh": "វិទ្យាស្ថានជាតិស្ថិតិ"
+    },
+    "tags": ["GDP", "economic sectors", "agriculture", "industry", "services"],
+    "license": "CC-BY-4.0",
+    "created_at": "2023-09-30T08:00:00Z",
+    "updated_at": "2024-01-10T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "slug": "cambodia-rice-production-2023",
+    "title_en": "Cambodia Rice Production Statistics 2023",
+    "title_kh": "ស្ថិតិផលិតកម្មស្រូវកម្ពុជា ២០២៣",
+    "description_en": "Annual rice production data by province, including paddy area, yield, and total production for 2023.",
+    "description_kh": "ទិន្នន័យផលិតកម្មស្រូវប្រចាំឆ្នាំ ចែកតាមខេត្ត រួមមានផ្ទៃដីស្រូវ ទិន្នផល និងផលិតកម្មសរុប ក្នុងឆ្នាំ ២០២៣។",
+    "category": {
+      "id": 4,
+      "slug": "agriculture",
+      "name_en": "Agriculture",
+      "name_kh": "កសិកម្ម"
+    },
+    "organization": {
+      "id": 4,
+      "slug": "ministry-of-agriculture",
+      "name_en": "Ministry of Agriculture, Forestry and Fisheries",
+      "name_kh": "ក្រសួងកសិកម្ម រុក្ខាប្រមាញ់ និងនេសាទ"
+    },
+    "tags": ["rice", "agriculture", "production", "food security"],
+    "license": "CC-BY-4.0",
+    "created_at": "2023-11-15T10:00:00Z",
+    "updated_at": "2024-02-01T08:00:00Z"
+  },
+  {
+    "id": 6,
+    "slug": "cambodia-population-census-2019",
+    "title_en": "Cambodia Population and Housing Census 2019",
+    "title_kh": "សុមារូបនីយកម្មប្រជាជន និងលំនៅដ្ឋាន ២០១៩",
+    "description_en": "Comprehensive population and housing census data from the 2019 General Population Census of Cambodia, including demographic breakdowns by province.",
+    "description_kh": "ទិន្នន័យសុមារូបនីយកម្មប្រជាជន និងលំនៅដ្ឋានពេញលេញ ពីការប្រជុំប្រជាជនទូទៅ ២០១៩ របស់កម្ពុជា។",
+    "category": {
+      "id": 5,
+      "slug": "demographics",
+      "name_en": "Demographics",
+      "name_kh": "ប្រជាសាស្ត្រ"
+    },
+    "organization": {
+      "id": 3,
+      "slug": "national-institute-of-statistics",
+      "name_en": "National Institute of Statistics",
+      "name_kh": "វិទ្យាស្ថានជាតិស្ថិតិ"
+    },
+    "tags": ["population", "census", "demographics", "housing", "provinces"],
+    "license": "CC-BY-4.0",
+    "created_at": "2020-06-01T00:00:00Z",
+    "updated_at": "2021-03-15T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "slug": "cambodia-tourism-arrivals-2023",
+    "title_en": "Cambodia International Tourist Arrivals 2023",
+    "title_kh": "ការមកដល់នៃភ្ញៀវទេសចរអន្តរជាតិ ២០២៣",
+    "description_en": "Monthly and annual statistics on international tourist arrivals to Cambodia in 2023, broken down by country of origin.",
+    "description_kh": "ស្ថិតិប្រចាំខែ និងប្រចាំឆ្នាំ ស្ដីពីភ្ញៀវទេសចរអន្តរជាតិ ដែលមកទស្សនាកម្ពុជា ក្នុងឆ្នាំ ២០២៣ ចែកតាមប្រទេសដើម។",
+    "category": {
+      "id": 6,
+      "slug": "tourism",
+      "name_en": "Tourism",
+      "name_kh": "ទេសចរណ៍"
+    },
+    "organization": {
+      "id": 5,
+      "slug": "ministry-of-tourism",
+      "name_en": "Ministry of Tourism",
+      "name_kh": "ក្រសួងទេសចរណ៍"
+    },
+    "tags": ["tourism", "arrivals", "international visitors", "2023"],
+    "license": "CC-BY-4.0",
+    "created_at": "2024-02-15T09:00:00Z",
+    "updated_at": "2024-03-01T10:00:00Z"
+  },
+  {
+    "id": 8,
+    "slug": "cambodia-public-debt-2023",
+    "title_en": "Cambodia Public Debt Statistics 2023",
+    "title_kh": "ស្ថិតិបំណុលសាធារណៈ ២០២៣",
+    "description_en": "Public debt statistics including external and domestic debt, debt service, and debt-to-GDP ratios for Cambodia in 2023.",
+    "description_kh": "ស្ថិតិបំណុលសាធារណៈ រួមមានបំណុលក្រៅប្រទេស និងក្នុងស្រុក ការសងបំណុល និងសមាមាត្របំណុលទៅ ផ.ស.ស. ក្នុងឆ្នាំ ២០២៣។",
+    "category": {
+      "id": 1,
+      "slug": "finance",
+      "name_en": "Finance",
+      "name_kh": "ហិរញ្ញវត្ថុ"
+    },
+    "organization": {
+      "id": 1,
+      "slug": "ministry-of-economy-and-finance",
+      "name_en": "Ministry of Economy and Finance",
+      "name_kh": "ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ"
+    },
+    "tags": ["public debt", "external debt", "GDP", "fiscal"],
+    "license": "CC-BY-4.0",
+    "created_at": "2024-03-01T08:00:00Z",
+    "updated_at": "2024-03-30T12:00:00Z"
+  },
+  {
+    "id": 9,
+    "slug": "cambodia-education-enrollment-2023",
+    "title_en": "Cambodia School Enrollment Statistics 2023",
+    "title_kh": "ស្ថិតិចុះឈ្មោះចូលរៀន ២០២៣",
+    "description_en": "Pre-primary, primary, and secondary school enrollment rates and numbers by province and gender for school year 2022-2023.",
+    "description_kh": "អត្រា និងចំនួននៃការចុះឈ្មោះចូលរៀន ក្នុងថ្នាក់មុនបឋមសិក្សា បឋមសិក្សា និងមធ្យមសិក្សា ចែកតាមខេត្ត និងភេទ សម្រាប់ឆ្នាំសិក្សា ២០២២-២០២៣។",
+    "category": {
+      "id": 7,
+      "slug": "education",
+      "name_en": "Education",
+      "name_kh": "អប់រំ"
+    },
+    "organization": {
+      "id": 6,
+      "slug": "ministry-of-education",
+      "name_en": "Ministry of Education, Youth and Sport",
+      "name_kh": "ក្រសួងអប់រំ យុវជន និងកីឡា"
+    },
+    "tags": ["education", "enrollment", "schools", "gender", "provinces"],
+    "license": "CC-BY-4.0",
+    "created_at": "2023-10-01T08:00:00Z",
+    "updated_at": "2024-01-05T09:00:00Z"
+  },
+  {
+    "id": 10,
+    "slug": "cambodia-cpi-inflation-2024",
+    "title_en": "Cambodia Consumer Price Index and Inflation 2024",
+    "title_kh": "សន្ទស្សន៍តម្លៃអ្នកប្រើប្រាស់ និងអតិផរណា ២០២៤",
+    "description_en": "Monthly Consumer Price Index (CPI) data and calculated inflation rates for Cambodia in 2024, broken down by expenditure category.",
+    "description_kh": "ទិន្នន័យសន្ទស្សន៍តម្លៃអ្នកប្រើប្រាស់ (CPI) ប្រចាំខែ និងអត្រាអតិផរណាដែលបានគណនា ក្នុងឆ្នាំ ២០២៤ ចែកតាមប្រភេទការចំណាយ។",
+    "category": {
+      "id": 3,
+      "slug": "economy",
+      "name_en": "Economy",
+      "name_kh": "សេដ្ឋកិច្ច"
+    },
+    "organization": {
+      "id": 3,
+      "slug": "national-institute-of-statistics",
+      "name_en": "National Institute of Statistics",
+      "name_kh": "វិទ្យាស្ថានជាតិស្ថិតិ"
+    },
+    "tags": ["CPI", "inflation", "consumer prices", "NIS"],
+    "license": "CC-BY-4.0",
+    "created_at": "2024-02-01T07:30:00Z",
+    "updated_at": "2024-04-04T08:00:00Z"
+  }
+]

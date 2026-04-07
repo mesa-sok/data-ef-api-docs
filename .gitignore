@@ -36,5 +36,5 @@ htmlcov/
 # macOS
 .DS_Store
 
-# Script output
+# Script output (transient; use artifacts/ for committed data)
 output/
