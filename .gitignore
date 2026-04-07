@@ -35,3 +35,6 @@ htmlcov/
 
 # macOS
 .DS_Store
+
+# Script output
+output/

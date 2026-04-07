@@ -23,8 +23,9 @@ Python client library and runnable scripts for the **[Data EF Public API](https:
    - [Realtime API – CSX Summary](#realtime-api--csx-summary)
 6. [Pydantic Models](#pydantic-models)
 7. [Scripts](#scripts)
-8. [Running Tests](#running-tests)
-9. [Enumerations & Constants](#enumerations--constants)
+8. [Bulk Data Harvesting](#bulk-data-harvesting)
+9. [Running Tests](#running-tests)
+10. [Enumerations & Constants](#enumerations--constants)
 
 ---
 
@@ -80,7 +81,9 @@ data-ef-api-docs/
 │   ├── public_datasets.py          # demonstrates all dataset endpoints
 │   ├── events_news.py              # demonstrates events-and-news endpoints
 │   ├── realtime_api.py             # demonstrates all realtime endpoints
-│   └── contact.py                  # demonstrates the contact endpoint
+│   ├── contact.py                  # demonstrates the contact endpoint
+│   ├── explore_filters.py          # shows category / org / format breakdown
+│   └── fetch_all_datasets.py       # bulk-harvests ALL metadata + file URLs
 │
 └── tests/
     └── test_client.py              # 38 pytest tests (httpx mock)
@@ -545,9 +548,242 @@ uv run scripts/realtime_api.py
 
 # Contact form (edit the placeholder values first)
 uv run scripts/contact.py
+
+# Explore filter options (categories, organisations, formats)
+uv run scripts/explore_filters.py
+
+# Bulk-harvest ALL metadata + file URLs
+uv run scripts/fetch_all_datasets.py
 ```
 
-Each script prints pretty-printed JSON for every API call it makes.
+Each script prints pretty-printed output for every API call it makes.
+
+---
+
+## Bulk Data Harvesting
+
+### The question: category filter, org filter, or plain pagination?
+
+> **TL;DR — use plain pagination with `page_size=10000`.**
+> It is the most efficient approach: one request covers the entire catalogue,
+> no duplicates, no missed datasets.
+
+| Approach | Requests needed | Risk of duplicates | Best for |
+|---|---|---|---|
+| **Plain pagination** `page_size=10000` | 1 (or a few) | ✅ None | Full catalogue harvest |
+| Category filter | 1 per category | ⚠️ Yes (cross-category datasets) | Grouped-by-category views |
+| Organisation filter | 1 per organisation | ⚠️ Yes (shared datasets) | Grouped-by-org views |
+| Data-format filter | 1 per format | ⚠️ Yes | Format-specific pipelines |
+
+---
+
+### Step-by-step strategy
+
+#### Step 1 — Explore the catalogue (once)
+
+```bash
+uv run scripts/explore_filters.py
+```
+
+This shows how many datasets exist, and their distribution across categories,
+organisations, and data formats. Sample output:
+
+```
+Total: 142 datasets  /  87 datasources
+
+=== Categories (14) ===
+  finance                        38 datasets   [Finance]
+  agriculture                    22 datasets   [Agriculture]
+  education                      18 datasets   [Education]
+  ...
+
+=== Organisations (11) ===
+  ministry-of-finance            55 datasets   [Ministry of Finance]
+  national-bank-of-cambodia      14 datasets   [National Bank of Cambodia]
+  ...
+
+=== Data Formats (5) ===
+  CSV                            98 datasets
+  XLSX                           44 datasets
+  JSON                           12 datasets
+  ...
+```
+
+#### Step 2 — Harvest all metadata
+
+```bash
+uv run scripts/fetch_all_datasets.py
+```
+
+Writes `output/metadata.json` — a JSON array of every dataset metadata record.
+
+```bash
+# Limit to first 20 datasets (useful for testing)
+MAX_DATASETS=20 uv run scripts/fetch_all_datasets.py
+
+# Metadata only (skip file-URL collection)
+FETCH_DATA=false uv run scripts/fetch_all_datasets.py
+
+# Custom output directory
+DATA_DIR=/tmp/data-ef uv run scripts/fetch_all_datasets.py
+```
+
+**Typical `metadata.json` record shape** (all fields optional per the API spec):
+
+```json
+{
+  "id": "budget-law-2024",
+  "slug": "budget-law-2024",
+  "title_en": "Budget Law 2024",
+  "title_kh": "ច្បាប់ហិរញ្ញប្បទាន ២០២៤",
+  "description_en": "Annual budget law published by the Ministry of Economy ...",
+  "description_kh": "...",
+  "category": {
+    "id": 1,
+    "slug": "finance",
+    "name_en": "Finance",
+    "name_kh": "ហិរញ្ញវត្ថុ"
+  },
+  "organization": {
+    "id": 3,
+    "slug": "ministry-of-finance",
+    "name_en": "Ministry of Finance",
+    "name_kh": "ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ"
+  },
+  "tags": ["budget", "law", "finance"],
+  "license": "CC-BY-4.0",
+  "created_at": "2024-01-15T08:00:00Z",
+  "updated_at": "2024-03-20T12:30:00Z"
+}
+```
+
+#### Step 3 — Collect data for each dataset
+
+The script also writes `output/data_index.json`, which describes how data is
+available for every dataset.
+
+**Method A — downloadable file (preferred)**
+
+If `/file` returns entries the raw file (CSV, XLSX, …) is available for direct
+download:
+
+```json
+{
+  "id": "budget-law-2024",
+  "method": "file",
+  "files": [
+    {
+      "name": "budget_2024.csv",
+      "format": "CSV",
+      "url": "https://data.mef.gov.kh/media/datasets/budget_2024.csv",
+      "size": 204800
+    },
+    {
+      "name": "budget_2024.xlsx",
+      "format": "XLSX",
+      "url": "https://data.mef.gov.kh/media/datasets/budget_2024.xlsx",
+      "size": 389120
+    }
+  ],
+  "json_row_count": null
+}
+```
+
+Download all files in a single shell loop:
+
+```bash
+jq -r '.[] | select(.method=="file") | .files[] | .url' output/data_index.json \
+  | xargs -P 4 -I{} wget -q -P output/files/ {}
+```
+
+**Method B — JSON preview (fallback)**
+
+Datasets without downloadable files expose their data through the paginated
+`/json` endpoint (max 200 rows per page):
+
+```json
+{
+  "id": "province-stats-2023",
+  "method": "json",
+  "files": [],
+  "json_row_count": 1250
+}
+```
+
+Retrieve all rows programmatically:
+
+```python
+import math, sys
+sys.path.insert(0, "src")
+from data_ef_api import DataEFClient
+
+PAGE = 200  # maximum allowed
+
+with DataEFClient() as client:
+    # First page to get total
+    first = client.get_public_dataset_json("province-stats-2023", page=1, page_size=PAGE)
+    total = first.data.total or 0
+    rows = list(first.data.results or [])
+
+    for p in range(2, math.ceil(total / PAGE) + 1):
+        page_data = client.get_public_dataset_json("province-stats-2023", page=p, page_size=PAGE)
+        rows.extend(page_data.data.results or [])
+
+print(f"Downloaded {len(rows)} rows")
+```
+
+---
+
+### Complete harvest summary output
+
+After `fetch_all_datasets.py` finishes it prints a summary:
+
+```
+============================================================
+  SUMMARY
+============================================================
+  Total datasets harvested : 142
+  Have downloadable files  : 118  (247 files total)
+  JSON-only (no file)      :  20
+  No data available        :   4
+
+  Output written to: /your/path/output/
+    metadata.json   — 142 records
+    data_index.json — 142 records
+============================================================
+```
+
+---
+
+### Filtering use-cases
+
+Even though plain pagination is best for a full harvest, filters are useful for
+targeted queries:
+
+```python
+from data_ef_api import DataEFClient
+
+with DataEFClient() as client:
+    # All finance datasets
+    finance = client.get_public_datasets(categories="finance", page_size=10000)
+
+    # All datasets from the Ministry of Finance
+    mof = client.get_public_datasets(organizations="ministry-of-finance", page_size=10000)
+
+    # CSV-only datasets
+    csvs = client.get_public_datasets(data_formats="CSV", page_size=10000)
+
+    # Combined: finance CSVs, sorted newest first
+    finance_csvs = client.get_public_datasets(
+        categories="finance",
+        data_formats="CSV",
+        sort_by="NEWEST",
+        page_size=10000,
+    )
+```
+
+> **Note:** Slug values for `categories` and `organizations` come from the
+> `/filter-options` endpoint. Run `explore_filters.py` to list them all.
 
 ---
 
