@@ -632,28 +632,46 @@ DATA_DIR=/tmp/data-ef uv run scripts/fetch_all_datasets.py
 
 ```json
 {
-  "id": "budget-law-2024",
-  "slug": "budget-law-2024",
-  "title_en": "Budget Law 2024",
-  "title_kh": "ច្បាប់ហិរញ្ញប្បទាន ២០២៤",
-  "description_en": "Annual budget law published by the Ministry of Economy ...",
-  "description_kh": "...",
-  "category": {
-    "id": 1,
-    "slug": "finance",
-    "name_en": "Finance",
-    "name_kh": "ហិរញ្ញវត្ថុ"
-  },
+  "organization_id": 43,
+  "format": "PDF",
+  "download_count": 0,
+  "file_url": "pd_69d4f3d075bdc100087f426d.pdf",
+  "dashboard_id": null,
+  "id": "pd_69d4f3d075bdc100087f426d",
+  "file_size": "74528308",
+  "api_calls_count": 0,
+  "column_data_id": null,
+  "created_at": "2026-04-07T12:08:48.349161+00:00",
+  "views_count": 13,
+  "frequency": "once",
+  "name": "Inter-Ministerial Prakas on Geographical Area Codes of the Kingdom of Cambodia 2025",
+  "is_active": true,
+  "coverage_start": "2025-09-09",
+  "updated_at": "2026-04-07T12:17:59.511414+00:00",
+  "description": "This Prakas is an Inter-Ministerial Prakas that shows the introduction of the capital, province, municipality, district, khan, commune, sangkat, and village identification codes of the Kingdom of Cambodia, as attached in the annex to this Inter-Ministerial Prakas. The Secretary-General, the Director-General of the General Department of Administration, the heads of departments and all units under the Ministry of Interior, the Directors-General of relevant General Departments, the heads of departments and all units under the Ministry of Land Management, Urban Planning and Construction, the governors of the capital, province, municipality, district, khan, and the commune/sangkat chiefs shall be responsible for implementing this Inter-Ministerial Prakas according to their respective duties from the date of signature. \n This announcement was made in Phnom Penh and signed on September 9, 2025, by His Excellency Dr. Sar Sokha, Deputy Prime Minister and Minister of Interior, and His Excellency Say Samal, Deputy Prime Minister and Minister of Land Management, Urban Planning, and Construction.",
+  "coverage_end": "2030-12-31",
+  "deleted_at": null,
+  "source": null,
+  "categories": [
+    {
+      "name_en": "Geospatial Data",
+      "category_id": 30,
+      "slug": "geospatial-data",
+      "name_kh": "ទិន្នន័យភូមិសាស្រ្ត",
+      "abbreviation": "GD",
+      "deleted_at": null
+    }
+  ],
   "organization": {
-    "id": 3,
-    "slug": "ministry-of-finance",
-    "name_en": "Ministry of Finance",
-    "name_kh": "ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ"
-  },
-  "tags": ["budget", "law", "finance"],
-  "license": "CC-BY-4.0",
-  "created_at": "2024-01-15T08:00:00Z",
-  "updated_at": "2024-03-20T12:30:00Z"
+    "name_kh": "ក្រសួងរៀបចំដែនដី នគរូបនីយកម្ម និងសំណង់",
+    "abbreviation": "MLMUPC",
+    "organization_id": 43,
+    "file_url": "org_img_66b43bf8bcc3db0001df6754.png",
+    "deleted_at": null,
+    "name_en": "Ministry of Land Management, Urban Planning and Construction",
+    "format": "PNG",
+    "is_active": true
+  }
 }
 ```
 

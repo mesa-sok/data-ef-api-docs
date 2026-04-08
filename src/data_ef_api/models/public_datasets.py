@@ -28,12 +28,39 @@ class DatasetListData(BaseModel):
     total_pages: int | None = None
 
 
-class DatasetListResponse(BaseModel):
+from pydantic import RootModel
+
+class DatasetListResponseRootDict(BaseModel):
+    model_config = {"extra": "allow"}
+    data: list[Any] | DatasetListData | None = None
+    total_items: int | None = None
+    page: int | None = None
+    page_size: int | None = None
+    total_pages: int | None = None
+
+class DatasetListResponse(RootModel):
     """Response envelope for ``GET /api/v1/public-datasets``."""
 
-    model_config = {"extra": "allow"}
+    root: DatasetListResponseRootDict | list[Any] | DatasetListData | None = None
 
-    data: DatasetListData | None = None
+    @property
+    def data(self) -> DatasetListData | None:
+        # Wrap it up to provide compatible interface if it's not dict-like
+        if isinstance(self.root, DatasetListResponseRootDict):
+            if isinstance(self.root.data, list):
+                return DatasetListData(
+                    results=self.root.data,
+                    total=self.root.total_items,
+                    page=self.root.page,
+                    page_size=self.root.page_size,
+                    total_pages=self.root.total_pages
+                )
+            return self.root.data
+        if isinstance(self.root, DatasetListData):
+            return self.root
+        if isinstance(self.root, list):
+            return DatasetListData(results=self.root, total=len(self.root), page=1, page_size=len(self.root), total_pages=1)
+        return None
 
 
 # ── Home ──────────────────────────────────────────────────────────────────────
@@ -60,6 +87,12 @@ class CountData(BaseModel):
 
     datasets: int | None = None
     datasources: int | None = None
+    dataset_count: int | None = None
+    data_source_count: int | None = None
+
+    @property
+    def get_datasets_count(self) -> int:
+        return self.datasets if self.datasets is not None else (self.dataset_count or 0)
 
 
 # ── Filter Options ────────────────────────────────────────────────────────────
