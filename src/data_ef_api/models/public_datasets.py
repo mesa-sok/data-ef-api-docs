@@ -97,15 +97,41 @@ class CountData(BaseModel):
 
 # ── Filter Options ────────────────────────────────────────────────────────────
 
-class FilterOptionItem(BaseModel):
-    """A single selectable option (category, organisation, format)."""
+class CategoryOption(BaseModel):
+    """A single category filter option."""
 
     model_config = {"extra": "allow"}
 
-    id: str | int | None = None
-    name: str | None = None
-    slug: str | None = None
-    count: int | None = None
+    label_en: str | None = None
+    label_kh: str | None = None
+    value: str | None = None          # slug, e.g. "public-finance"
+    dataset_count: int | None = None
+
+
+class OrganizationOption(BaseModel):
+    """A single organisation filter option."""
+
+    model_config = {"extra": "allow"}
+
+    label_en: str | None = None
+    label_kh: str | None = None
+    abbreviation: str | None = None
+    value: int | None = None          # numeric org ID
+    dataset_count: int | None = None
+
+
+class DataFormatOption(BaseModel):
+    """A single data-format filter option."""
+
+    model_config = {"extra": "allow"}
+
+    label: str | None = None
+    value: str | None = None
+    dataset_count: int | None = None
+
+
+# Keep the old name as an alias so existing code doesn't break
+FilterOptionItem = CategoryOption
 
 
 class FilterOptions(BaseModel):
@@ -113,9 +139,10 @@ class FilterOptions(BaseModel):
 
     model_config = {"extra": "allow"}
 
-    categories: list[FilterOptionItem] | None = None
-    organizations: list[FilterOptionItem] | None = None
-    data_formats: list[FilterOptionItem] | None = None
+    categories: list[CategoryOption] | None = None
+    organizations: list[OrganizationOption] | None = None
+    data_formats: list[DataFormatOption] | None = None
+    sort_by: list[dict] | None = None
 
 
 # ── Auto-suggest ──────────────────────────────────────────────────────────────

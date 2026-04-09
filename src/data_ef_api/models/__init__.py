@@ -23,6 +23,8 @@ from .errors import (
 )
 from .events_news import EventsAndNewsDetail, EventsAndNewsList, EventsAndNewsListResponse
 from .public_datasets import (
+    CategoryOption,
+    DataFormatOption,
     DatasetDetail,
     DatasetFileInfo,
     DatasetJsonPreview,
@@ -30,6 +32,7 @@ from .public_datasets import (
     DatasetMapData,
     FilterOptions,
     HomeData,
+    OrganizationOption,
     RealtimeApiSpec,
     SeoDataset,
 )
@@ -78,6 +81,8 @@ __all__ = [
     "EventsAndNewsList",
     "EventsAndNewsListResponse",
     # public datasets
+    "CategoryOption",
+    "DataFormatOption",
     "DatasetDetail",
     "DatasetFileInfo",
     "DatasetJsonPreview",
@@ -85,6 +90,7 @@ __all__ = [
     "DatasetMapData",
     "FilterOptions",
     "HomeData",
+    "OrganizationOption",
     "RealtimeApiSpec",
     "SeoDataset",
     # realtime

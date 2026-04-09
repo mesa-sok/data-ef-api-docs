@@ -19,17 +19,17 @@ Strategy
 Output
 ------
 Results are written to:
-  - ``output/metadata.json``   — list of dataset metadata objects
-  - ``output/data_index.json`` — per-dataset mapping of id → file URLs / row count
+  - ``artifacts/metadata.json``   — list of dataset metadata objects
+  - ``artifacts/data_index.json`` — per-dataset mapping of id → file URLs / row count
 
 Usage
 -----
     uv run scripts/fetch_all_datasets.py
 
 Options (edit the constants below or pass as env-vars):
-    DATA_DIR      destination folder          (default: output/)
+    DATA_DIR      destination folder          (default: artifacts/)
     MAX_DATASETS  cap number of datasets      (default: unlimited)
-    FETCH_DATA    also fetch row data         (default: true)
+    FETCH_DATA    also fetch row data         (default: false)
     VERBOSE       print per-dataset progress  (default: true)
 """
 
@@ -41,16 +41,18 @@ import os
 import sys
 from pathlib import Path
 
-sys.path.insert(0, "src")
+# Resolve project root relative to this script
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))
 
 from data_ef_api import DataEFClient
 
 # ── Configuration ──────────────────────────────────────────────────────────────
-DATA_DIR: Path = Path(os.getenv("DATA_DIR", "output"))
+DATA_DIR: Path = Path(os.getenv("DATA_DIR", ROOT / "artifacts"))
 MAX_DATASETS: int | None = (
     int(os.getenv("MAX_DATASETS", "0")) or None
 )  # None = no cap
-FETCH_DATA: bool = os.getenv("FETCH_DATA", "true").lower() != "false"
+FETCH_DATA: bool = os.getenv("FETCH_DATA", "false").lower() == "true"
 VERBOSE: bool = os.getenv("VERBOSE", "true").lower() != "false"
 PAGE_SIZE: int = 10_000  # maximum allowed by the API
 

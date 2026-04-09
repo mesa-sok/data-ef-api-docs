@@ -110,9 +110,11 @@ class DataEFClient:
 
         ``GET /api/v1/public-datasets/filter-options``
         """
-        return FilterOptions.model_validate(
-            self._get("/api/v1/public-datasets/filter-options")
-        )
+        raw = self._get("/api/v1/public-datasets/filter-options")
+        # The API wraps the payload in a top-level "data" key
+        payload = raw.get("data", raw) if isinstance(raw, dict) else raw
+        return FilterOptions.model_validate(payload)
+
 
     def get_auto_suggest(self, keyword: str = "") -> AutoSuggestResponse:
         """Return search auto-suggestions for the given *keyword*.
