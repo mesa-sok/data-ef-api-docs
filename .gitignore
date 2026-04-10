@@ -38,3 +38,7 @@ htmlcov/
 
 # Script output (transient; use artifacts/ for committed data)
 output/
+
+# Large datasets and vector stores
+datasets/
+artifacts/qdrant_storage/
