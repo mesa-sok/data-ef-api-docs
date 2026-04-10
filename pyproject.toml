@@ -5,8 +5,13 @@ description = "Scripts and documentation for the Data EF Public API (data.mef.go
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi>=0.124.4",
     "httpx>=0.28.1",
+    "ipykernel>=7.2.0",
+    "litellm[proxy]>=1.83.4",
     "pydantic[email]>=2.12.5",
+    "qdrant-client>=1.17.1",
+    "uvicorn>=0.33.0",
 ]
 
 [project.scripts]
