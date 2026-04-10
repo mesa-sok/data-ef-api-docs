@@ -13,6 +13,8 @@
 | **[Scripts Guide](scripts-guide.md)** | How to run each helper script and what output to expect |
 | **[Bulk Harvesting Guide](bulk-harvesting.md)** | Strategy for pulling all dataset metadata + row data efficiently |
 | **[Data Schemas](data-schemas.md)** | Schema reference for `artifacts/metadata.json` and `artifacts/data_index.json` |
+| **[Semantic Search](semantic-search.md)** | Guide to embeddings and semantic search using Qdrant |
+| **[Dataset Similarity Plan](dataset-similarity-plan.md)** | Implementation plan for a similarity-first dataset discovery pipeline |
 
 ---
 
