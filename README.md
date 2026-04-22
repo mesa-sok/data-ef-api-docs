@@ -78,12 +78,32 @@ data-ef-api-docs/
 │           └── events_news.py      # EventsAndNewsDetail / List models
 │
 ├── scripts/
-│   ├── public_datasets.py          # demonstrates all dataset endpoints
-│   ├── events_news.py              # demonstrates events-and-news endpoints
-│   ├── realtime_api.py             # demonstrates all realtime endpoints
-│   ├── contact.py                  # demonstrates the contact endpoint
-│   ├── explore_filters.py          # shows category / org / format breakdown
-│   └── fetch_all_datasets.py       # bulk-harvests ALL metadata + file URLs
+│   ├── explore/                    # one-off API demos & quick inspections
+│   │   ├── public_datasets.py
+│   │   ├── events_news.py
+│   │   ├── realtime_api.py
+│   │   ├── contact.py
+│   │   └── explore_filters.py
+│   ├── harvest/                    # bulk fetching & column metadata
+│   │   ├── fetch_all_datasets.py
+│   │   ├── fetch_categories.py
+│   │   ├── fetch_organizations.py
+│   │   ├── fetch_csv_datasets.py
+│   │   ├── fetch_column_metadata.py
+│   │   ├── standalone_fetch_column_metadata.py
+│   │   └── standalone_export_datasets.py
+│   ├── search/                     # embedding, vector DB, similarity queries
+│   │   ├── embed_datasets.py
+│   │   ├── embed_columns.py
+│   │   ├── search_datasets.py
+│   │   ├── find_dataset_similarity.py
+│   │   ├── find_similar_datasets.py
+│   │   ├── nearest_neighbors_by_dataset_id.py
+│   │   └── find_similar_datasets.ipynb
+│   └── eval/                       # evaluation set generation & LLM labeling
+│       ├── generate_eval_sets.py
+│       ├── label_pairs_llm.py
+│       └── run_eval.py
 │
 └── tests/
     └── test_client.py              # 38 pytest tests (httpx mock)
@@ -538,22 +558,22 @@ Run any script directly with `uv run`:
 
 ```bash
 # Public Datasets
-uv run scripts/public_datasets.py
+uv run scripts/explore/public_datasets.py
 
 # Events and News
-uv run scripts/events_news.py
+uv run scripts/explore/events_news.py
 
 # All Realtime APIs (exchange rate, weather, AQI, UV, CSX)
-uv run scripts/realtime_api.py
+uv run scripts/explore/realtime_api.py
 
 # Contact form (edit the placeholder values first)
-uv run scripts/contact.py
+uv run scripts/explore/contact.py
 
 # Explore filter options (categories, organisations, formats)
-uv run scripts/explore_filters.py
+uv run scripts/explore/explore_filters.py
 
 # Bulk-harvest ALL metadata + file URLs
-uv run scripts/fetch_all_datasets.py
+uv run scripts/harvest/fetch_all_datasets.py
 ```
 
 Each script prints pretty-printed output for every API call it makes.
@@ -582,7 +602,7 @@ Each script prints pretty-printed output for every API call it makes.
 #### Step 1 — Explore the catalogue (once)
 
 ```bash
-uv run scripts/explore_filters.py
+uv run scripts/explore/explore_filters.py
 ```
 
 This shows how many datasets exist, and their distribution across categories,
@@ -619,13 +639,9 @@ Writes `output/metadata.json` — a JSON array of every dataset metadata record.
 
 ```bash
 # Limit to first 20 datasets (useful for testing)
-MAX_DATASETS=20 uv run scripts/fetch_all_datasets.py
-
-# Metadata only (skip file-URL collection)
-FETCH_DATA=false uv run scripts/fetch_all_datasets.py
-
-# Custom output directory
-DATA_DIR=/tmp/data-ef uv run scripts/fetch_all_datasets.py
+MAX_DATASETS=20 uv run scripts/harvest/fetch_all_datasets.py
+FETCH_DATA=false uv run scripts/harvest/fetch_all_datasets.py
+DATA_DIR=/tmp/data-ef uv run scripts/harvest/fetch_all_datasets.py
 ```
 
 **Typical `metadata.json` record shape** (all fields optional per the API spec):

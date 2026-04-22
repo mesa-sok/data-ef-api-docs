@@ -1,0 +1,3804 @@
+[
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69d5c890720a3c0007449ceb",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2024",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a53be7cbc5b50007ffed32",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2017",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a53b7acbc5b50007ffed31",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2016",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ac084ccb47dc0001246490",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2025",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67089b3440cc5500017936d7",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2023",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67089b0a40cc5500017936d6",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2022",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67089ae040cc5500017936d5",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2021",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37536d76b00019fe847",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2018",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe846",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37536d76b00019fe846",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2019",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37436d76b00019fe845"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37436d76b00019fe845",
+    "query_title": "Export Statistics by the Top 20 Countries in FY2020",
+    "series_key": "export statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69d5c890720a3c0007449ceb",
+      "pd_69a53be7cbc5b50007ffed32",
+      "pd_69a53b7acbc5b50007ffed31",
+      "pd_67ac084ccb47dc0001246490",
+      "pd_67089b3440cc5500017936d7",
+      "pd_67089b0a40cc5500017936d6",
+      "pd_67089ae040cc5500017936d5",
+      "pd_66a9f37536d76b00019fe847",
+      "pd_66a9f37536d76b00019fe846"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c21c632331260007cda3eb",
+    "query_title": "Public Debt Situation Summary by Quarter FY2025",
+    "series_key": "public debt situation summary by quarter",
+    "relevant_dataset_ids": [
+      "pd_69c21bbb2331260007cda3ea",
+      "pd_69c21b0e2331260007cda3e9",
+      "pd_69c20f5f2331260007cda3e4"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c21bbb2331260007cda3ea",
+    "query_title": "Public Debt Situation Summary by Quarter FY2024",
+    "series_key": "public debt situation summary by quarter",
+    "relevant_dataset_ids": [
+      "pd_69c21c632331260007cda3eb",
+      "pd_69c21b0e2331260007cda3e9",
+      "pd_69c20f5f2331260007cda3e4"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c21b0e2331260007cda3e9",
+    "query_title": "Public Debt Situation Summary by Quarter FY2023",
+    "series_key": "public debt situation summary by quarter",
+    "relevant_dataset_ids": [
+      "pd_69c21c632331260007cda3eb",
+      "pd_69c21bbb2331260007cda3ea",
+      "pd_69c20f5f2331260007cda3e4"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c20f5f2331260007cda3e4",
+    "query_title": "Public Debt Situation Summary by Quarter FY2022",
+    "series_key": "public debt situation summary by quarter",
+    "relevant_dataset_ids": [
+      "pd_69c21c632331260007cda3eb",
+      "pd_69c21bbb2331260007cda3ea",
+      "pd_69c21b0e2331260007cda3e9"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c1fc5c2331260007cda3dc",
+    "query_title": "Public External Debt Stock by Currency Quarterly FY2025",
+    "series_key": "public external debt stock by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c1fbd92331260007cda3da",
+      "pd_69c1fa5b2331260007cda3d9",
+      "pd_69c1f99a2331260007cda3d8"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c1fbd92331260007cda3da",
+    "query_title": "Public External Debt Stock by Currency Quarterly FY2024",
+    "series_key": "public external debt stock by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c1fc5c2331260007cda3dc",
+      "pd_69c1fa5b2331260007cda3d9",
+      "pd_69c1f99a2331260007cda3d8"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c1fa5b2331260007cda3d9",
+    "query_title": "Public External Debt Stock by Currency Quarterly FY2023",
+    "series_key": "public external debt stock by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c1fc5c2331260007cda3dc",
+      "pd_69c1fbd92331260007cda3da",
+      "pd_69c1f99a2331260007cda3d8"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c1f99a2331260007cda3d8",
+    "query_title": "Public External Debt Stock by Currency Quarterly FY2022",
+    "series_key": "public external debt stock by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c1fc5c2331260007cda3dc",
+      "pd_69c1fbd92331260007cda3da",
+      "pd_69c1fa5b2331260007cda3d9"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0fa543280e60007451f23",
+    "query_title": "Public External Debt Loan Signed by Sector Quarterly FY2025",
+    "series_key": "public external debt loan signed by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0f9673280e60007451f21",
+      "pd_69c0f8b93280e60007451f20",
+      "pd_69c0f81e3280e60007451f1f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0f9673280e60007451f21",
+    "query_title": "Public External Debt Loan Signed by Sector Quarterly FY2024",
+    "series_key": "public external debt loan signed by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0fa543280e60007451f23",
+      "pd_69c0f8b93280e60007451f20",
+      "pd_69c0f81e3280e60007451f1f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0f8b93280e60007451f20",
+    "query_title": "Public External Debt Loan Signed by Sector Quarterly FY2023",
+    "series_key": "public external debt loan signed by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0fa543280e60007451f23",
+      "pd_69c0f9673280e60007451f21",
+      "pd_69c0f81e3280e60007451f1f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0f81e3280e60007451f1f",
+    "query_title": "Public External Debt Loan Signed by Sector Quarterly FY2022",
+    "series_key": "public external debt loan signed by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0fa543280e60007451f23",
+      "pd_69c0f9673280e60007451f21",
+      "pd_69c0f8b93280e60007451f20"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0f5c23280e60007451f1e",
+    "query_title": "Public External Debt Loan Signed by Currency Quarterly FY2025",
+    "series_key": "public external debt loan signed by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0f4c23280e60007451f1c",
+      "pd_69c0f44c3280e60007451f1b",
+      "pd_69c0f3753280e60007451f1a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0f4c23280e60007451f1c",
+    "query_title": "Public External Debt Loan Signed by Currency Quarterly FY2024",
+    "series_key": "public external debt loan signed by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0f5c23280e60007451f1e",
+      "pd_69c0f44c3280e60007451f1b",
+      "pd_69c0f3753280e60007451f1a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0f44c3280e60007451f1b",
+    "query_title": "Public External Debt Loan Signed by Currency Quarterly FY2023",
+    "series_key": "public external debt loan signed by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0f5c23280e60007451f1e",
+      "pd_69c0f4c23280e60007451f1c",
+      "pd_69c0f3753280e60007451f1a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0f3753280e60007451f1a",
+    "query_title": "Public External Debt Loan Signed by Currency Quarterly FY2022",
+    "series_key": "public external debt loan signed by currency quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0f5c23280e60007451f1e",
+      "pd_69c0f4c23280e60007451f1c",
+      "pd_69c0f44c3280e60007451f1b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0b6c33280e60007451eed",
+    "query_title": "Public External Debt Disbursement by Sector Quarterly FY2025",
+    "series_key": "public external debt disbursement by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0b6173280e60007451eec",
+      "pd_69c0b4bb3280e60007451eea",
+      "pd_69c0b3cc3280e60007451ee9"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0b6173280e60007451eec",
+    "query_title": "Public External Debt Disbursement by Sector Quarterly FY2024",
+    "series_key": "public external debt disbursement by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0b6c33280e60007451eed",
+      "pd_69c0b4bb3280e60007451eea",
+      "pd_69c0b3cc3280e60007451ee9"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0b4bb3280e60007451eea",
+    "query_title": "Public External Debt Disbursement by Sector Quarterly FY2023",
+    "series_key": "public external debt disbursement by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0b6c33280e60007451eed",
+      "pd_69c0b6173280e60007451eec",
+      "pd_69c0b3cc3280e60007451ee9"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69c0b3cc3280e60007451ee9",
+    "query_title": "Public External Debt Disbursement by Sector Quarterly FY2022",
+    "series_key": "public external debt disbursement by sector quarterly",
+    "relevant_dataset_ids": [
+      "pd_69c0b6c33280e60007451eed",
+      "pd_69c0b6173280e60007451eec",
+      "pd_69c0b4bb3280e60007451eea"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a64308cbc5b50007ffed71",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2017",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a6428fcbc5b50007ffed70",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2016",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ac0925cb47dc0001246494",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2025",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_677204ee93d4f00001fc574b",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2024",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66bdab6649eb6c00013c134e",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2023",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66bdab1449eb6c00013c134d",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2022",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66bdaaea49eb6c00013c134c",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2021",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f36e36d76b00019fe83e",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2018",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36d36d76b00019fe83d",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f36d36d76b00019fe83d",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2019",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36c36d76b00019fe83c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f36c36d76b00019fe83c",
+    "query_title": "Trade Balance Statistics by Top 20 Countries in FY2020",
+    "series_key": "trade balance statistics by top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a64308cbc5b50007ffed71",
+      "pd_69a6428fcbc5b50007ffed70",
+      "pd_67ac0925cb47dc0001246494",
+      "pd_677204ee93d4f00001fc574b",
+      "pd_66bdab6649eb6c00013c134e",
+      "pd_66bdab1449eb6c00013c134d",
+      "pd_66bdaaea49eb6c00013c134c",
+      "pd_66a9f36e36d76b00019fe83e",
+      "pd_66a9f36d36d76b00019fe83d"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a63a9ecbc5b50007ffed59",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2017",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a63a33cbc5b50007ffed58",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2016",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ac08e0cb47dc0001246493",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2025",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_677203a893d4f00001fc574a",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2024",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6708987340cc5500017936d4",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2023",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6708984340cc5500017936d3",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2022",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_670897de40cc5500017936d2",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2021",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37036d76b00019fe841",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2018",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f36f36d76b00019fe840",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f36f36d76b00019fe840",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2019",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36e36d76b00019fe83f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f36e36d76b00019fe83f",
+    "query_title": "Import Statistics by the Top 20 Countries in FY2020",
+    "series_key": "import statistics by the top 20 countries in",
+    "relevant_dataset_ids": [
+      "pd_69a63a9ecbc5b50007ffed59",
+      "pd_69a63a33cbc5b50007ffed58",
+      "pd_67ac08e0cb47dc0001246493",
+      "pd_677203a893d4f00001fc574a",
+      "pd_6708987340cc5500017936d4",
+      "pd_6708984340cc5500017936d3",
+      "pd_670897de40cc5500017936d2",
+      "pd_66a9f37036d76b00019fe841",
+      "pd_66a9f36f36d76b00019fe840"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a58086cbc5b50007ffed54",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2023",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a57fe6cbc5b50007ffed53",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2022",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a57e84cbc5b50007ffed4f",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2021",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a57a83cbc5b50007ffed4b",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2017",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a5798dcbc5b50007ffed4a",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2016",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ac088ccb47dc0001246491",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2025",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6772033793d4f00001fc5748",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2024",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37336d76b00019fe844",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2018",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37136d76b00019fe843",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37136d76b00019fe843",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2019",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe842"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37136d76b00019fe842",
+    "query_title": "Import Statistics for the Top 20 Commodities in FY2020",
+    "series_key": "import statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a58086cbc5b50007ffed54",
+      "pd_69a57fe6cbc5b50007ffed53",
+      "pd_69a57e84cbc5b50007ffed4f",
+      "pd_69a57a83cbc5b50007ffed4b",
+      "pd_69a5798dcbc5b50007ffed4a",
+      "pd_67ac088ccb47dc0001246491",
+      "pd_6772033793d4f00001fc5748",
+      "pd_66a9f37336d76b00019fe844",
+      "pd_66a9f37136d76b00019fe843"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a52c6fcbc5b50007ffed2d",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2023",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a52be7cbc5b50007ffed2c",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2022",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a52b25cbc5b50007ffed2b",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2021",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a511bccbc5b50007ffed21",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2017",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a5107acbc5b50007ffed20",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2016",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ac07decb47dc000124648e",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2025",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67501da363ddef0001b3c554",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2024",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37736d76b00019fe84a",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2018",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe849",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37736d76b00019fe849",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2019",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37636d76b00019fe848"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f37636d76b00019fe848",
+    "query_title": "Export Statistics for the Top 20 Commodities in FY2020",
+    "series_key": "export statistics for the top 20 commodities in",
+    "relevant_dataset_ids": [
+      "pd_69a52c6fcbc5b50007ffed2d",
+      "pd_69a52be7cbc5b50007ffed2c",
+      "pd_69a52b25cbc5b50007ffed2b",
+      "pd_69a511bccbc5b50007ffed21",
+      "pd_69a5107acbc5b50007ffed20",
+      "pd_67ac07decb47dc000124648e",
+      "pd_67501da363ddef0001b3c554",
+      "pd_66a9f37736d76b00019fe84a",
+      "pd_66a9f37736d76b00019fe849"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a424a8cbc5b50007ffed19",
+    "query_title": "Public External Debt Loan Signed by Creditor Quarterly FY2024",
+    "series_key": "public external debt loan signed by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c749eb6c00013c12a0",
+      "pd_66b498c249eb6c00013c1299",
+      "pd_66b498c149eb6c00013c1298"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c749eb6c00013c12a0",
+    "query_title": "Public External Debt Loan Signed by Creditor Quarterly FY2023",
+    "series_key": "public external debt loan signed by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_69a424a8cbc5b50007ffed19",
+      "pd_66b498c249eb6c00013c1299",
+      "pd_66b498c149eb6c00013c1298"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c249eb6c00013c1299",
+    "query_title": "Public External Debt Loan Signed by Creditor Quarterly FY2025",
+    "series_key": "public external debt loan signed by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_69a424a8cbc5b50007ffed19",
+      "pd_66b498c749eb6c00013c12a0",
+      "pd_66b498c149eb6c00013c1298"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c149eb6c00013c1298",
+    "query_title": "Public External Debt Loan Signed by Creditor Quarterly FY2022",
+    "series_key": "public external debt loan signed by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_69a424a8cbc5b50007ffed19",
+      "pd_66b498c749eb6c00013c12a0",
+      "pd_66b498c249eb6c00013c1299"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69a008086202cc0007e35a09",
+    "query_title": "Subnational Budget Summary in the Budget in Brief FY2026",
+    "series_key": "subnational budget summary in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_674fe06963ddef0001b3c54b",
+      "pd_66a9f83936d76b00019fe8a0",
+      "pd_66a9f73136d76b00019fe888",
+      "pd_66a9f73036d76b00019fe887",
+      "pd_66a9f73036d76b00019fe886"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_674fe06963ddef0001b3c54b",
+    "query_title": "Subnational Budget Summary in the Budget in Brief FY2024",
+    "series_key": "subnational budget summary in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_69a008086202cc0007e35a09",
+      "pd_66a9f83936d76b00019fe8a0",
+      "pd_66a9f73136d76b00019fe888",
+      "pd_66a9f73036d76b00019fe887",
+      "pd_66a9f73036d76b00019fe886"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f83936d76b00019fe8a0",
+    "query_title": "Subnational Budget Summary in the Budget in Brief FY2021",
+    "series_key": "subnational budget summary in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_69a008086202cc0007e35a09",
+      "pd_674fe06963ddef0001b3c54b",
+      "pd_66a9f73136d76b00019fe888",
+      "pd_66a9f73036d76b00019fe887",
+      "pd_66a9f73036d76b00019fe886"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73136d76b00019fe888",
+    "query_title": "Subnational Budget Summary in the Budget in Brief FY2023",
+    "series_key": "subnational budget summary in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_69a008086202cc0007e35a09",
+      "pd_674fe06963ddef0001b3c54b",
+      "pd_66a9f83936d76b00019fe8a0",
+      "pd_66a9f73036d76b00019fe887",
+      "pd_66a9f73036d76b00019fe886"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73036d76b00019fe887",
+    "query_title": "Subnational Budget Summary in the Budget in Brief FY2022",
+    "series_key": "subnational budget summary in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_69a008086202cc0007e35a09",
+      "pd_674fe06963ddef0001b3c54b",
+      "pd_66a9f83936d76b00019fe8a0",
+      "pd_66a9f73136d76b00019fe888",
+      "pd_66a9f73036d76b00019fe886"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73036d76b00019fe886",
+    "query_title": "Subnational Budget Summary in the Budget in Brief FY2025",
+    "series_key": "subnational budget summary in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_69a008086202cc0007e35a09",
+      "pd_674fe06963ddef0001b3c54b",
+      "pd_66a9f83936d76b00019fe8a0",
+      "pd_66a9f73136d76b00019fe888",
+      "pd_66a9f73036d76b00019fe887"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_699d70429eaed400071a6cd9",
+    "query_title": "Provincial Revenue Classified by Chapter of the Finance Law FY2026",
+    "series_key": "provincial revenue classified by chapter of the finance law",
+    "relevant_dataset_ids": [
+      "pd_699d6c409eaed400071a6cd5",
+      "pd_673aab134aca290001eec799",
+      "pd_673aaae74aca290001eec798",
+      "pd_673aaac24aca290001eec797",
+      "pd_673aaa814aca290001eec796",
+      "pd_673aaa504aca290001eec795"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_699d6c409eaed400071a6cd5",
+    "query_title": "Provincial Revenue Classified by Chapter of the Finance Law FY2025",
+    "series_key": "provincial revenue classified by chapter of the finance law",
+    "relevant_dataset_ids": [
+      "pd_699d70429eaed400071a6cd9",
+      "pd_673aab134aca290001eec799",
+      "pd_673aaae74aca290001eec798",
+      "pd_673aaac24aca290001eec797",
+      "pd_673aaa814aca290001eec796",
+      "pd_673aaa504aca290001eec795"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_673aab134aca290001eec799",
+    "query_title": "Provincial Revenue Classified by Chapter of the Finance Law FY2020",
+    "series_key": "provincial revenue classified by chapter of the finance law",
+    "relevant_dataset_ids": [
+      "pd_699d70429eaed400071a6cd9",
+      "pd_699d6c409eaed400071a6cd5",
+      "pd_673aaae74aca290001eec798",
+      "pd_673aaac24aca290001eec797",
+      "pd_673aaa814aca290001eec796",
+      "pd_673aaa504aca290001eec795"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_673aaae74aca290001eec798",
+    "query_title": "Provincial Revenue Classified by Chapter of the Finance Law FY2021",
+    "series_key": "provincial revenue classified by chapter of the finance law",
+    "relevant_dataset_ids": [
+      "pd_699d70429eaed400071a6cd9",
+      "pd_699d6c409eaed400071a6cd5",
+      "pd_673aab134aca290001eec799",
+      "pd_673aaac24aca290001eec797",
+      "pd_673aaa814aca290001eec796",
+      "pd_673aaa504aca290001eec795"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_673aaac24aca290001eec797",
+    "query_title": "Provincial Revenue Classified by Chapter of the Finance Law FY2022",
+    "series_key": "provincial revenue classified by chapter of the finance law",
+    "relevant_dataset_ids": [
+      "pd_699d70429eaed400071a6cd9",
+      "pd_699d6c409eaed400071a6cd5",
+      "pd_673aab134aca290001eec799",
+      "pd_673aaae74aca290001eec798",
+      "pd_673aaa814aca290001eec796",
+      "pd_673aaa504aca290001eec795"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_673aaa814aca290001eec796",
+    "query_title": "Provincial Revenue Classified by Chapter of the Finance Law FY2023",
+    "series_key": "provincial revenue classified by chapter of the finance law",
+    "relevant_dataset_ids": [
+      "pd_699d70429eaed400071a6cd9",
+      "pd_699d6c409eaed400071a6cd5",
+      "pd_673aab134aca290001eec799",
+      "pd_673aaae74aca290001eec798",
+      "pd_673aaac24aca290001eec797",
+      "pd_673aaa504aca290001eec795"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_673aaa504aca290001eec795",
+    "query_title": "Provincial Revenue Classified by Chapter of the Finance Law FY2024",
+    "series_key": "provincial revenue classified by chapter of the finance law",
+    "relevant_dataset_ids": [
+      "pd_699d70429eaed400071a6cd9",
+      "pd_699d6c409eaed400071a6cd5",
+      "pd_673aab134aca290001eec799",
+      "pd_673aaae74aca290001eec798",
+      "pd_673aaac24aca290001eec797",
+      "pd_673aaa814aca290001eec796"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_690318e86a965e00074a5ee7",
+    "query_title": "Top 5 Business Activities in 2024",
+    "series_key": "top 5 business activities in",
+    "relevant_dataset_ids": [
+      "pd_690317ba6a965e00074a5ee6"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_690317ba6a965e00074a5ee6",
+    "query_title": "Top 5 Business Activities in 2023",
+    "series_key": "top 5 business activities in",
+    "relevant_dataset_ids": [
+      "pd_690318e86a965e00074a5ee7"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_69003f4f6a965e00074a5ee3",
+    "query_title": "Modification and Increase of Salaries for Sub-National Council Members for FY2024",
+    "series_key": "modification and increase of salaries for sub national council members for",
+    "relevant_dataset_ids": [
+      "pd_690038626a965e00074a5ee2"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_690038626a965e00074a5ee2",
+    "query_title": "Modification and Increase of Salaries for Sub-National Council Members for FY2023",
+    "series_key": "modification and increase of salaries for sub national council members for",
+    "relevant_dataset_ids": [
+      "pd_69003f4f6a965e00074a5ee3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_689eb7f2ce6f5e0007732f94",
+    "query_title": "National Revenue of Budget Law FY2006",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_6899ad5079fe4d000707da6b",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_689eb79ece6f5e0007732f93",
+    "query_title": "National Revenue of Budget Law FY2005",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_6899ad5079fe4d000707da6b",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_689eb6edce6f5e0007732f92",
+    "query_title": "National Revenue of Budget Law FY2004",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_6899ad5079fe4d000707da6b",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_689d5bdece6f5e0007732f75",
+    "query_title": "National Revenue of Budget Law, FY2019 - FY2025",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_6899ad5079fe4d000707da6b",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_689bf75279fe4d000707da7a",
+    "query_title": "National Revenue of Budget Law FY2003",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_6899ad5079fe4d000707da6b",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_689b267e79fe4d000707da79",
+    "query_title": "National Revenue of Budget Law FY2002",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_6899ad5079fe4d000707da6b",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6899c61b79fe4d000707da6d",
+    "query_title": "National Revenue of Budget Law FY2001",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899ad5079fe4d000707da6b",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6899ad5079fe4d000707da6b",
+    "query_title": "National Revenue of Budget Law FY2000",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_68997e6c79fe4d000707da67"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_68997e6c79fe4d000707da67",
+    "query_title": "National Revenue of Budget Law FY1999",
+    "series_key": "national revenue of budget law",
+    "relevant_dataset_ids": [
+      "pd_689eb7f2ce6f5e0007732f94",
+      "pd_689eb79ece6f5e0007732f93",
+      "pd_689eb6edce6f5e0007732f92",
+      "pd_689d5bdece6f5e0007732f75",
+      "pd_689bf75279fe4d000707da7a",
+      "pd_689b267e79fe4d000707da79",
+      "pd_6899c61b79fe4d000707da6d",
+      "pd_6899ad5079fe4d000707da6b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_68906d1d79fe4d000707d9c9",
+    "query_title": "Public External Debt Service Payment by Creditor Quarterly FY2022",
+    "series_key": "public external debt service payment by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_689031dc79fe4d000707d9c6",
+      "pd_66b498c849eb6c00013c12a1",
+      "pd_66b498c349eb6c00013c129a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_689031dc79fe4d000707d9c6",
+    "query_title": "Public External Debt Service Payment by Creditor Quarterly FY2025",
+    "series_key": "public external debt service payment by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_68906d1d79fe4d000707d9c9",
+      "pd_66b498c849eb6c00013c12a1",
+      "pd_66b498c349eb6c00013c129a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c849eb6c00013c12a1",
+    "query_title": "Public External Debt Service Payment by Creditor Quarterly FY2023",
+    "series_key": "public external debt service payment by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_68906d1d79fe4d000707d9c9",
+      "pd_689031dc79fe4d000707d9c6",
+      "pd_66b498c349eb6c00013c129a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c349eb6c00013c129a",
+    "query_title": "Public External Debt Service Payment by Creditor Quarterly FY2024",
+    "series_key": "public external debt service payment by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_68906d1d79fe4d000707d9c9",
+      "pd_689031dc79fe4d000707d9c6",
+      "pd_66b498c849eb6c00013c12a1"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6889d1df79fe4d000795ecf2",
+    "query_title": "Statistic by Procurement Type, FY2017 - FY2023",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_66b498b049eb6c00013c1281",
+      "pd_66b498af49eb6c00013c1280",
+      "pd_66b498ae49eb6c00013c127f",
+      "pd_66b498ae49eb6c00013c127e",
+      "pd_66b498ad49eb6c00013c127d",
+      "pd_66b498ac49eb6c00013c127c",
+      "pd_66b498ab49eb6c00013c127b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b049eb6c00013c1281",
+    "query_title": "Statistic by Procurement Type, FY2023",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_6889d1df79fe4d000795ecf2",
+      "pd_66b498af49eb6c00013c1280",
+      "pd_66b498ae49eb6c00013c127f",
+      "pd_66b498ae49eb6c00013c127e",
+      "pd_66b498ad49eb6c00013c127d",
+      "pd_66b498ac49eb6c00013c127c",
+      "pd_66b498ab49eb6c00013c127b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498af49eb6c00013c1280",
+    "query_title": "Statistic by Procurement Type, FY2022",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_6889d1df79fe4d000795ecf2",
+      "pd_66b498b049eb6c00013c1281",
+      "pd_66b498ae49eb6c00013c127f",
+      "pd_66b498ae49eb6c00013c127e",
+      "pd_66b498ad49eb6c00013c127d",
+      "pd_66b498ac49eb6c00013c127c",
+      "pd_66b498ab49eb6c00013c127b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ae49eb6c00013c127f",
+    "query_title": "Statistic by Procurement Type, FY2021",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_6889d1df79fe4d000795ecf2",
+      "pd_66b498b049eb6c00013c1281",
+      "pd_66b498af49eb6c00013c1280",
+      "pd_66b498ae49eb6c00013c127e",
+      "pd_66b498ad49eb6c00013c127d",
+      "pd_66b498ac49eb6c00013c127c",
+      "pd_66b498ab49eb6c00013c127b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ae49eb6c00013c127e",
+    "query_title": "Statistic by Procurement Type, FY2020",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_6889d1df79fe4d000795ecf2",
+      "pd_66b498b049eb6c00013c1281",
+      "pd_66b498af49eb6c00013c1280",
+      "pd_66b498ae49eb6c00013c127f",
+      "pd_66b498ad49eb6c00013c127d",
+      "pd_66b498ac49eb6c00013c127c",
+      "pd_66b498ab49eb6c00013c127b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ad49eb6c00013c127d",
+    "query_title": "Statistic by Procurement Type, FY2019",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_6889d1df79fe4d000795ecf2",
+      "pd_66b498b049eb6c00013c1281",
+      "pd_66b498af49eb6c00013c1280",
+      "pd_66b498ae49eb6c00013c127f",
+      "pd_66b498ae49eb6c00013c127e",
+      "pd_66b498ac49eb6c00013c127c",
+      "pd_66b498ab49eb6c00013c127b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ac49eb6c00013c127c",
+    "query_title": "Statistic by Procurement Type, FY2018",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_6889d1df79fe4d000795ecf2",
+      "pd_66b498b049eb6c00013c1281",
+      "pd_66b498af49eb6c00013c1280",
+      "pd_66b498ae49eb6c00013c127f",
+      "pd_66b498ae49eb6c00013c127e",
+      "pd_66b498ad49eb6c00013c127d",
+      "pd_66b498ab49eb6c00013c127b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ab49eb6c00013c127b",
+    "query_title": "Statistic by Procurement Type, FY2017",
+    "series_key": "statistic by procurement type",
+    "relevant_dataset_ids": [
+      "pd_6889d1df79fe4d000795ecf2",
+      "pd_66b498b049eb6c00013c1281",
+      "pd_66b498af49eb6c00013c1280",
+      "pd_66b498ae49eb6c00013c127f",
+      "pd_66b498ae49eb6c00013c127e",
+      "pd_66b498ad49eb6c00013c127d",
+      "pd_66b498ac49eb6c00013c127c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6889cba279fe4d000795ecf0",
+    "query_title": "Statistic of Registered Enterprises and Establishments and Workers by Sectors of NSSF in 2020-2022",
+    "series_key": "statistic of registered enterprises and establishments and workers by sectors of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67c557a7c8ee8000013663a3",
+      "pd_67b6a463cb47dc00012464a2",
+      "pd_67a5872666a35300013bf9c0"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67c557a7c8ee8000013663a3",
+    "query_title": "Statistic of Registered Enterprises and Establishments and Workers by Sectors of NSSF in 2020",
+    "series_key": "statistic of registered enterprises and establishments and workers by sectors of nssf in",
+    "relevant_dataset_ids": [
+      "pd_6889cba279fe4d000795ecf0",
+      "pd_67b6a463cb47dc00012464a2",
+      "pd_67a5872666a35300013bf9c0"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67b6a463cb47dc00012464a2",
+    "query_title": "Statistic of Registered Enterprises and Establishments and Workers by Sectors of NSSF in 2021",
+    "series_key": "statistic of registered enterprises and establishments and workers by sectors of nssf in",
+    "relevant_dataset_ids": [
+      "pd_6889cba279fe4d000795ecf0",
+      "pd_67c557a7c8ee8000013663a3",
+      "pd_67a5872666a35300013bf9c0"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67a5872666a35300013bf9c0",
+    "query_title": "Statistic of Registered Enterprises and Establishments and Workers by Sectors of NSSF in 2022",
+    "series_key": "statistic of registered enterprises and establishments and workers by sectors of nssf in",
+    "relevant_dataset_ids": [
+      "pd_6889cba279fe4d000795ecf0",
+      "pd_67c557a7c8ee8000013663a3",
+      "pd_67b6a463cb47dc00012464a2"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_68889bdb79fe4d000795ece1",
+    "query_title": "National Expenditure by Ministry and Program in the Budget in Brief FY2025",
+    "series_key": "national expenditure by ministry and program in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6880bfb23a4a460001a321ef",
+      "pd_6788b82f25d1a200018107cb",
+      "pd_66a9f72d36d76b00019fe882",
+      "pd_66a9f72c36d76b00019fe881",
+      "pd_66a9f72b36d76b00019fe880"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6880bfb23a4a460001a321ef",
+    "query_title": "National Expenditure by Ministry and Program in the Budget in Brief FY2026",
+    "series_key": "national expenditure by ministry and program in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_68889bdb79fe4d000795ece1",
+      "pd_6788b82f25d1a200018107cb",
+      "pd_66a9f72d36d76b00019fe882",
+      "pd_66a9f72c36d76b00019fe881",
+      "pd_66a9f72b36d76b00019fe880"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b82f25d1a200018107cb",
+    "query_title": "National Expenditure by Ministry and Program in the Budget in Brief FY2024",
+    "series_key": "national expenditure by ministry and program in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_68889bdb79fe4d000795ece1",
+      "pd_6880bfb23a4a460001a321ef",
+      "pd_66a9f72d36d76b00019fe882",
+      "pd_66a9f72c36d76b00019fe881",
+      "pd_66a9f72b36d76b00019fe880"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f72d36d76b00019fe882",
+    "query_title": "National Expenditure by Ministry and Program in the Budget in Brief FY2023",
+    "series_key": "national expenditure by ministry and program in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_68889bdb79fe4d000795ece1",
+      "pd_6880bfb23a4a460001a321ef",
+      "pd_6788b82f25d1a200018107cb",
+      "pd_66a9f72c36d76b00019fe881",
+      "pd_66a9f72b36d76b00019fe880"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f72c36d76b00019fe881",
+    "query_title": "National Expenditure by Ministry and Program in the Budget in Brief FY2022",
+    "series_key": "national expenditure by ministry and program in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_68889bdb79fe4d000795ece1",
+      "pd_6880bfb23a4a460001a321ef",
+      "pd_6788b82f25d1a200018107cb",
+      "pd_66a9f72d36d76b00019fe882",
+      "pd_66a9f72b36d76b00019fe880"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f72b36d76b00019fe880",
+    "query_title": "National Expenditure by Ministry and Program in the Budget in Brief FY2021",
+    "series_key": "national expenditure by ministry and program in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_68889bdb79fe4d000795ece1",
+      "pd_6880bfb23a4a460001a321ef",
+      "pd_6788b82f25d1a200018107cb",
+      "pd_66a9f72d36d76b00019fe882",
+      "pd_66a9f72c36d76b00019fe881"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6874b0f93a4a460001a321d8",
+    "query_title": "Overview of Equity Market, 2025",
+    "series_key": "overview of equity market",
+    "relevant_dataset_ids": [
+      "pd_6788b30e25d1a200018107bb",
+      "pd_6784884325d1a200018107a6"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b30e25d1a200018107bb",
+    "query_title": "Overview of Equity Market, 2023",
+    "series_key": "overview of equity market",
+    "relevant_dataset_ids": [
+      "pd_6874b0f93a4a460001a321d8",
+      "pd_6784884325d1a200018107a6"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6784884325d1a200018107a6",
+    "query_title": "Overview of Equity Market, 2024",
+    "series_key": "overview of equity market",
+    "relevant_dataset_ids": [
+      "pd_6874b0f93a4a460001a321d8",
+      "pd_6788b30e25d1a200018107bb"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ca5689c8ee8000013663b1",
+    "query_title": "Rice Export Statistic by Metric Tons in 2025",
+    "series_key": "rice export statistic by metric tons in",
+    "relevant_dataset_ids": [
+      "pd_67ca564bc8ee8000013663b0",
+      "pd_67ca560ac8ee8000013663af",
+      "pd_67ca55c4c8ee8000013663ae"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ca564bc8ee8000013663b0",
+    "query_title": "Rice Export Statistic by Metric Tons in 2024",
+    "series_key": "rice export statistic by metric tons in",
+    "relevant_dataset_ids": [
+      "pd_67ca5689c8ee8000013663b1",
+      "pd_67ca560ac8ee8000013663af",
+      "pd_67ca55c4c8ee8000013663ae"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ca560ac8ee8000013663af",
+    "query_title": "Rice Export Statistic by Metric Tons in 2023",
+    "series_key": "rice export statistic by metric tons in",
+    "relevant_dataset_ids": [
+      "pd_67ca5689c8ee8000013663b1",
+      "pd_67ca564bc8ee8000013663b0",
+      "pd_67ca55c4c8ee8000013663ae"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67ca55c4c8ee8000013663ae",
+    "query_title": "Rice Export Statistic by Metric Tons in 2022",
+    "series_key": "rice export statistic by metric tons in",
+    "relevant_dataset_ids": [
+      "pd_67ca5689c8ee8000013663b1",
+      "pd_67ca564bc8ee8000013663b0",
+      "pd_67ca560ac8ee8000013663af"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67c55751c8ee8000013663a2",
+    "query_title": "Newly Registered Enterprises and Members of NSSF in 2020",
+    "series_key": "newly registered enterprises and members of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67b6a1d9cb47dc000124649f",
+      "pd_67a5837066a35300013bf9bc"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67b6a1d9cb47dc000124649f",
+    "query_title": "Newly Registered Enterprises and Members of NSSF in 2021",
+    "series_key": "newly registered enterprises and members of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67c55751c8ee8000013663a2",
+      "pd_67a5837066a35300013bf9bc"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67a5837066a35300013bf9bc",
+    "query_title": "Newly Registered Enterprises and Members of NSSF in 2022",
+    "series_key": "newly registered enterprises and members of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67c55751c8ee8000013663a2",
+      "pd_67b6a1d9cb47dc000124649f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67b6a4a4cb47dc00012464a3",
+    "query_title": "Occupational Risk Investigation Results by Types of Injuries of NSSF in 2021",
+    "series_key": "occupational risk investigation results by types of injuries of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67a58bed66a35300013bf9c2"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67a58bed66a35300013bf9c2",
+    "query_title": "Occupational Risk Investigation Results by Types of Injuries of NSSF in 2022",
+    "series_key": "occupational risk investigation results by types of injuries of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67b6a4a4cb47dc00012464a3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67b6a40acb47dc00012464a1",
+    "query_title": "Number of Contribution-Paid Enterprises and Establishments and Workers of NSSF in 2021",
+    "series_key": "number of contribution paid enterprises and establishments and workers of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67a58b8666a35300013bf9c1"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67a58b8666a35300013bf9c1",
+    "query_title": "Number of Contribution-Paid Enterprises and Establishments and Workers of NSSF in 2022",
+    "series_key": "number of contribution paid enterprises and establishments and workers of nssf in",
+    "relevant_dataset_ids": [
+      "pd_67b6a40acb47dc00012464a1"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67a02ddf66a35300013bf9b2",
+    "query_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2025",
+    "series_key": "donation from angkor enterprise to cambodia kantha bopha foundation",
+    "relevant_dataset_ids": [
+      "pd_6768c6d8255e6c000124827f",
+      "pd_6760f15d255e6c000124823c",
+      "pd_675fecec255e6c0001248218",
+      "pd_675fecbf255e6c0001248217"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6768c6d8255e6c000124827f",
+    "query_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2021",
+    "series_key": "donation from angkor enterprise to cambodia kantha bopha foundation",
+    "relevant_dataset_ids": [
+      "pd_67a02ddf66a35300013bf9b2",
+      "pd_6760f15d255e6c000124823c",
+      "pd_675fecec255e6c0001248218",
+      "pd_675fecbf255e6c0001248217"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6760f15d255e6c000124823c",
+    "query_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2022",
+    "series_key": "donation from angkor enterprise to cambodia kantha bopha foundation",
+    "relevant_dataset_ids": [
+      "pd_67a02ddf66a35300013bf9b2",
+      "pd_6768c6d8255e6c000124827f",
+      "pd_675fecec255e6c0001248218",
+      "pd_675fecbf255e6c0001248217"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fecec255e6c0001248218",
+    "query_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2023",
+    "series_key": "donation from angkor enterprise to cambodia kantha bopha foundation",
+    "relevant_dataset_ids": [
+      "pd_67a02ddf66a35300013bf9b2",
+      "pd_6768c6d8255e6c000124827f",
+      "pd_6760f15d255e6c000124823c",
+      "pd_675fecbf255e6c0001248217"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fecbf255e6c0001248217",
+    "query_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2024",
+    "series_key": "donation from angkor enterprise to cambodia kantha bopha foundation",
+    "relevant_dataset_ids": [
+      "pd_67a02ddf66a35300013bf9b2",
+      "pd_6768c6d8255e6c000124827f",
+      "pd_6760f15d255e6c000124823c",
+      "pd_675fecec255e6c0001248218"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67a02da366a35300013bf9b1",
+    "query_title": "Foreign Tourism Statistics and Revenue from Koh Ker Temple of FY2025",
+    "series_key": "foreign tourism statistics and revenue from koh ker temple of",
+    "relevant_dataset_ids": [
+      "pd_6768c749255e6c0001248280",
+      "pd_6760f11c255e6c000124823b",
+      "pd_675fea34255e6c0001248214",
+      "pd_675fe9db255e6c0001248213"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6768c749255e6c0001248280",
+    "query_title": "Foreign Tourism Statistics and Revenue from Koh Ker Temple of FY2021",
+    "series_key": "foreign tourism statistics and revenue from koh ker temple of",
+    "relevant_dataset_ids": [
+      "pd_67a02da366a35300013bf9b1",
+      "pd_6760f11c255e6c000124823b",
+      "pd_675fea34255e6c0001248214",
+      "pd_675fe9db255e6c0001248213"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6760f11c255e6c000124823b",
+    "query_title": "Foreign Tourism Statistics and Revenue from Koh Ker Temple of FY2022",
+    "series_key": "foreign tourism statistics and revenue from koh ker temple of",
+    "relevant_dataset_ids": [
+      "pd_67a02da366a35300013bf9b1",
+      "pd_6768c749255e6c0001248280",
+      "pd_675fea34255e6c0001248214",
+      "pd_675fe9db255e6c0001248213"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fea34255e6c0001248214",
+    "query_title": "Foreign Tourism Statistics and Revenue from Koh Ker Temple of FY2023",
+    "series_key": "foreign tourism statistics and revenue from koh ker temple of",
+    "relevant_dataset_ids": [
+      "pd_67a02da366a35300013bf9b1",
+      "pd_6768c749255e6c0001248280",
+      "pd_6760f11c255e6c000124823b",
+      "pd_675fe9db255e6c0001248213"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fe9db255e6c0001248213",
+    "query_title": "Foreign Tourism Statistics and Revenue from Koh Ker Temple of FY2024",
+    "series_key": "foreign tourism statistics and revenue from koh ker temple of",
+    "relevant_dataset_ids": [
+      "pd_67a02da366a35300013bf9b1",
+      "pd_6768c749255e6c0001248280",
+      "pd_6760f11c255e6c000124823b",
+      "pd_675fea34255e6c0001248214"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67a02d6866a35300013bf9b0",
+    "query_title": "Foreign Tourism Statistics and Revenue from Angkor pass ticket of FY2025",
+    "series_key": "foreign tourism statistics and revenue from angkor pass ticket of",
+    "relevant_dataset_ids": [
+      "pd_6768c7eb255e6c0001248281",
+      "pd_6760f0e1255e6c000124823a",
+      "pd_675fe908255e6c0001248210",
+      "pd_675fe8af255e6c000124820f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6768c7eb255e6c0001248281",
+    "query_title": "Foreign Tourism Statistics and Revenue from Angkor pass ticket of FY2021",
+    "series_key": "foreign tourism statistics and revenue from angkor pass ticket of",
+    "relevant_dataset_ids": [
+      "pd_67a02d6866a35300013bf9b0",
+      "pd_6760f0e1255e6c000124823a",
+      "pd_675fe908255e6c0001248210",
+      "pd_675fe8af255e6c000124820f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6760f0e1255e6c000124823a",
+    "query_title": "Foreign Tourism Statistics and Revenue from Angkor pass ticket of FY2022",
+    "series_key": "foreign tourism statistics and revenue from angkor pass ticket of",
+    "relevant_dataset_ids": [
+      "pd_67a02d6866a35300013bf9b0",
+      "pd_6768c7eb255e6c0001248281",
+      "pd_675fe908255e6c0001248210",
+      "pd_675fe8af255e6c000124820f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fe908255e6c0001248210",
+    "query_title": "Foreign Tourism Statistics and Revenue from Angkor pass ticket of FY2023",
+    "series_key": "foreign tourism statistics and revenue from angkor pass ticket of",
+    "relevant_dataset_ids": [
+      "pd_67a02d6866a35300013bf9b0",
+      "pd_6768c7eb255e6c0001248281",
+      "pd_6760f0e1255e6c000124823a",
+      "pd_675fe8af255e6c000124820f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fe8af255e6c000124820f",
+    "query_title": "Foreign Tourism Statistics and Revenue from Angkor pass ticket of FY2024",
+    "series_key": "foreign tourism statistics and revenue from angkor pass ticket of",
+    "relevant_dataset_ids": [
+      "pd_67a02d6866a35300013bf9b0",
+      "pd_6768c7eb255e6c0001248281",
+      "pd_6760f0e1255e6c000124823a",
+      "pd_675fe908255e6c0001248210"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788bb3425d1a200018107d4",
+    "query_title": "Cambodia Revenue Status of Budget in Brief, FY2025",
+    "series_key": "cambodia revenue status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_674fcfb763ddef0001b3c544",
+      "pd_66a9f73636d76b00019fe88e",
+      "pd_66a9f73536d76b00019fe88d",
+      "pd_66a9f73436d76b00019fe88c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_674fcfb763ddef0001b3c544",
+    "query_title": "Cambodia Revenue Status of Budget in Brief, FY2024",
+    "series_key": "cambodia revenue status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bb3425d1a200018107d4",
+      "pd_66a9f73636d76b00019fe88e",
+      "pd_66a9f73536d76b00019fe88d",
+      "pd_66a9f73436d76b00019fe88c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73636d76b00019fe88e",
+    "query_title": "Cambodia Revenue Status of Budget in Brief, FY2023",
+    "series_key": "cambodia revenue status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bb3425d1a200018107d4",
+      "pd_674fcfb763ddef0001b3c544",
+      "pd_66a9f73536d76b00019fe88d",
+      "pd_66a9f73436d76b00019fe88c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73536d76b00019fe88d",
+    "query_title": "Cambodia Revenue Status of Budget in Brief, FY2022",
+    "series_key": "cambodia revenue status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bb3425d1a200018107d4",
+      "pd_674fcfb763ddef0001b3c544",
+      "pd_66a9f73636d76b00019fe88e",
+      "pd_66a9f73436d76b00019fe88c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73436d76b00019fe88c",
+    "query_title": "Cambodia Revenue Status of Budget in Brief, FY2021",
+    "series_key": "cambodia revenue status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bb3425d1a200018107d4",
+      "pd_674fcfb763ddef0001b3c544",
+      "pd_66a9f73636d76b00019fe88e",
+      "pd_66a9f73536d76b00019fe88d"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788bae025d1a200018107d3",
+    "query_title": "Cambodia Expenditure Status of Budget in Brief, FY2025",
+    "series_key": "cambodia expenditure status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_674fd32263ddef0001b3c547",
+      "pd_66a9f73336d76b00019fe88b",
+      "pd_66a9f73336d76b00019fe88a",
+      "pd_66a9f73236d76b00019fe889"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_674fd32263ddef0001b3c547",
+    "query_title": "Cambodia Expenditure Status of Budget in Brief, FY2024",
+    "series_key": "cambodia expenditure status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bae025d1a200018107d3",
+      "pd_66a9f73336d76b00019fe88b",
+      "pd_66a9f73336d76b00019fe88a",
+      "pd_66a9f73236d76b00019fe889"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73336d76b00019fe88b",
+    "query_title": "Cambodia Expenditure Status of Budget in Brief FY2023",
+    "series_key": "cambodia expenditure status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bae025d1a200018107d3",
+      "pd_674fd32263ddef0001b3c547",
+      "pd_66a9f73336d76b00019fe88a",
+      "pd_66a9f73236d76b00019fe889"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73336d76b00019fe88a",
+    "query_title": "Cambodia Expenditure Status of Budget in Brief FY2022",
+    "series_key": "cambodia expenditure status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bae025d1a200018107d3",
+      "pd_674fd32263ddef0001b3c547",
+      "pd_66a9f73336d76b00019fe88b",
+      "pd_66a9f73236d76b00019fe889"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f73236d76b00019fe889",
+    "query_title": "Cambodia Expenditure Status of Budget in Brief FY2021",
+    "series_key": "cambodia expenditure status of budget in brief",
+    "relevant_dataset_ids": [
+      "pd_6788bae025d1a200018107d3",
+      "pd_674fd32263ddef0001b3c547",
+      "pd_66a9f73336d76b00019fe88b",
+      "pd_66a9f73336d76b00019fe88a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b95625d1a200018107ce",
+    "query_title": "Current Expenditure Budget of National Level in Brief, FY2025",
+    "series_key": "current expenditure budget of national level in brief",
+    "relevant_dataset_ids": [
+      "pd_6788b69425d1a200018107c7"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b69425d1a200018107c7",
+    "query_title": "Current Expenditure Budget of National Level in Brief, FY2024",
+    "series_key": "current expenditure budget of national level in brief",
+    "relevant_dataset_ids": [
+      "pd_6788b95625d1a200018107ce"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b5e025d1a200018107c6",
+    "query_title": "Overview of Equity Market on Growth Board of 2023",
+    "series_key": "overview of equity market on growth board of",
+    "relevant_dataset_ids": [
+      "pd_6787270d25d1a200018107b1"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6787270d25d1a200018107b1",
+    "query_title": "Overview of Equity Market on Growth Board of 2024",
+    "series_key": "overview of equity market on growth board of",
+    "relevant_dataset_ids": [
+      "pd_6788b5e025d1a200018107c6"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b59f25d1a200018107c5",
+    "query_title": "Trading Overview of​​​ Mengly J. Quach Education Plc. (MJQE) of 2023",
+    "series_key": "trading overview of mengly j quach education plc mjqe of",
+    "relevant_dataset_ids": [
+      "pd_6787265925d1a200018107b0"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6787265925d1a200018107b0",
+    "query_title": "Trading Overview of​​​ Mengly J. Quach Education Plc. (MJQE) of 2024",
+    "series_key": "trading overview of mengly j quach education plc mjqe of",
+    "relevant_dataset_ids": [
+      "pd_6788b59f25d1a200018107c5"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b55425d1a200018107c4",
+    "query_title": "Trading Overview of​​​ CAMGSM Plc. (CGSM) of 2023",
+    "series_key": "trading overview of camgsm plc cgsm of",
+    "relevant_dataset_ids": [
+      "pd_6787262925d1a200018107af"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6787262925d1a200018107af",
+    "query_title": "Trading Overview of​​​ CAMGSM Plc. (CGSM) of 2024",
+    "series_key": "trading overview of camgsm plc cgsm of",
+    "relevant_dataset_ids": [
+      "pd_6788b55425d1a200018107c4"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b51925d1a200018107c3",
+    "query_title": "Trading Overview of​​​ Pestech (Cambodia) Plc. (PEPC) of 2023",
+    "series_key": "trading overview of pestech cambodia plc pepc of",
+    "relevant_dataset_ids": [
+      "pd_678725f925d1a200018107ae"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_678725f925d1a200018107ae",
+    "query_title": "Trading Overview of​​​ Pestech (Cambodia) Plc. (PEPC) of 2024",
+    "series_key": "trading overview of pestech cambodia plc pepc of",
+    "relevant_dataset_ids": [
+      "pd_6788b51925d1a200018107c3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b4d625d1a200018107c2",
+    "query_title": "Trading Overview of​​​ ACLEDA Bank Plc. (ABC) of 2023",
+    "series_key": "trading overview of acleda bank plc abc of",
+    "relevant_dataset_ids": [
+      "pd_6787259525d1a200018107ad"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6787259525d1a200018107ad",
+    "query_title": "Trading Overview of​​​ ACLEDA Bank Plc. (ABC) of 2024",
+    "series_key": "trading overview of acleda bank plc abc of",
+    "relevant_dataset_ids": [
+      "pd_6788b4d625d1a200018107c2"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b4a025d1a200018107c1",
+    "query_title": "Trading Overview of​​​ Sihanoukville Autonomous Port (PAS) of 2023",
+    "series_key": "trading overview of sihanoukville autonomous port pas of",
+    "relevant_dataset_ids": [
+      "pd_67848d4525d1a200018107ab"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67848d4525d1a200018107ab",
+    "query_title": "Trading Overview of​​​ Sihanoukville Autonomous Port (PAS) of 2024",
+    "series_key": "trading overview of sihanoukville autonomous port pas of",
+    "relevant_dataset_ids": [
+      "pd_6788b4a025d1a200018107c1"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b43725d1a200018107c0",
+    "query_title": "Trading Overview of​​​ Phnom Penh SEZ Plc. (PPSP) of 2023",
+    "series_key": "trading overview of phnom penh sez plc ppsp of",
+    "relevant_dataset_ids": [
+      "pd_67848cd725d1a200018107aa"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67848cd725d1a200018107aa",
+    "query_title": "Trading Overview of​​​ Phnom Penh SEZ Plc. (PPSP) of 2024",
+    "series_key": "trading overview of phnom penh sez plc ppsp of",
+    "relevant_dataset_ids": [
+      "pd_6788b43725d1a200018107c0"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b3f825d1a200018107bf",
+    "query_title": "Trading Overview of​​​ Phnom Penh Autonomous Port (PPAP) of 2023",
+    "series_key": "trading overview of phnom penh autonomous port ppap of",
+    "relevant_dataset_ids": [
+      "pd_67848c3525d1a200018107a9"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67848c3525d1a200018107a9",
+    "query_title": "Trading Overview of​​​ Phnom Penh Autonomous Port (PPAP) of 2024",
+    "series_key": "trading overview of phnom penh autonomous port ppap of",
+    "relevant_dataset_ids": [
+      "pd_6788b3f825d1a200018107bf"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b3c525d1a200018107be",
+    "query_title": "Trading Overview of​​ Grand Twins International (Cambodia) PLC (GTI) of 2023",
+    "series_key": "trading overview of grand twins international cambodia plc gti of",
+    "relevant_dataset_ids": [
+      "pd_67848a5125d1a200018107a8"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_67848a5125d1a200018107a8",
+    "query_title": "Trading Overview​ of Grand Twins International (Cambodia) PLC (GTI) of 2024",
+    "series_key": "trading overview of grand twins international cambodia plc gti of",
+    "relevant_dataset_ids": [
+      "pd_6788b3c525d1a200018107be"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6788b34b25d1a200018107bc",
+    "query_title": "Overview of Equity Market on Main Board of 2023",
+    "series_key": "overview of equity market on main board of",
+    "relevant_dataset_ids": [
+      "pd_678487ca25d1a200018107a4"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_678487ca25d1a200018107a4",
+    "query_title": "Overview of Equity Market on Main Board of 2024",
+    "series_key": "overview of equity market on main board of",
+    "relevant_dataset_ids": [
+      "pd_6788b34b25d1a200018107bc"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6777b07893d4f00001fc5783",
+    "query_title": "Maternal and Child Nutrition in 2020",
+    "series_key": "maternal and child nutrition in",
+    "relevant_dataset_ids": [
+      "pd_6768d047255e6c0001248288"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6768d047255e6c0001248288",
+    "query_title": "Maternal and Child Nutrition in 2022",
+    "series_key": "maternal and child nutrition in",
+    "relevant_dataset_ids": [
+      "pd_6777b07893d4f00001fc5783"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6772132893d4f00001fc575e",
+    "query_title": "Weighted Average Rate on Outstanding Amount​ of Interest rate on deposit and loans in USD 2024",
+    "series_key": "weighted average rate on outstanding amount of interest rate on deposit and loans in usd",
+    "relevant_dataset_ids": [
+      "pd_677212ec93d4f00001fc575d",
+      "pd_6772123c93d4f00001fc575b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_677212ec93d4f00001fc575d",
+    "query_title": "Weighted Average Rate on Outstanding Amount​ of Interest rate on deposit and loans in USD 2023",
+    "series_key": "weighted average rate on outstanding amount of interest rate on deposit and loans in usd",
+    "relevant_dataset_ids": [
+      "pd_6772132893d4f00001fc575e",
+      "pd_6772123c93d4f00001fc575b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6772123c93d4f00001fc575b",
+    "query_title": "Weighted Average Rate on Outstanding Amount​ of Interest rate on deposit and loans in USD 2022",
+    "series_key": "weighted average rate on outstanding amount of interest rate on deposit and loans in usd",
+    "relevant_dataset_ids": [
+      "pd_6772132893d4f00001fc575e",
+      "pd_677212ec93d4f00001fc575d"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6772120593d4f00001fc575a",
+    "query_title": "Weighted Average Rate on Outstanding Amount​ of Interest rate on deposit and loans in KHR 2024",
+    "series_key": "weighted average rate on outstanding amount of interest rate on deposit and loans in khr",
+    "relevant_dataset_ids": [
+      "pd_677211bf93d4f00001fc5758",
+      "pd_6772112693d4f00001fc5757"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_677211bf93d4f00001fc5758",
+    "query_title": "Weighted Average Rate on Outstanding Amount​ of Interest rate on deposit and loans in KHR 2023",
+    "series_key": "weighted average rate on outstanding amount of interest rate on deposit and loans in khr",
+    "relevant_dataset_ids": [
+      "pd_6772120593d4f00001fc575a",
+      "pd_6772112693d4f00001fc5757"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6772112693d4f00001fc5757",
+    "query_title": "Weighted Average Rate on Outstanding Amount​ of Interest rate on deposit and loans in KHR 2022",
+    "series_key": "weighted average rate on outstanding amount of interest rate on deposit and loans in khr",
+    "relevant_dataset_ids": [
+      "pd_6772120593d4f00001fc575a",
+      "pd_677211bf93d4f00001fc5758"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e634693d4f00001fc5730",
+    "query_title": "Weighted Average Rate on New Amount​ of Interest rate on deposit and loans in USD 2024",
+    "series_key": "weighted average rate on new amount of interest rate on deposit and loans in usd",
+    "relevant_dataset_ids": [
+      "pd_676e631c93d4f00001fc572f",
+      "pd_676e62ea93d4f00001fc572e"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e631c93d4f00001fc572f",
+    "query_title": "Weighted Average Rate on New Amount​ of Interest rate on deposit and loans in USD 2023",
+    "series_key": "weighted average rate on new amount of interest rate on deposit and loans in usd",
+    "relevant_dataset_ids": [
+      "pd_676e634693d4f00001fc5730",
+      "pd_676e62ea93d4f00001fc572e"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e62ea93d4f00001fc572e",
+    "query_title": "Weighted Average Rate on New Amount​ of Interest rate on deposit and loans in USD 2022",
+    "series_key": "weighted average rate on new amount of interest rate on deposit and loans in usd",
+    "relevant_dataset_ids": [
+      "pd_676e634693d4f00001fc5730",
+      "pd_676e631c93d4f00001fc572f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e62a093d4f00001fc572d",
+    "query_title": "Weighted Average Rate on New Amount​ of Interest rate on deposit and loans in KHR 2024",
+    "series_key": "weighted average rate on new amount of interest rate on deposit and loans in khr",
+    "relevant_dataset_ids": [
+      "pd_676e624793d4f00001fc572c",
+      "pd_676e621493d4f00001fc572b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e624793d4f00001fc572c",
+    "query_title": "Weighted Average Rate on New Amount​ of Interest rate on deposit and loans in KHR 2023",
+    "series_key": "weighted average rate on new amount of interest rate on deposit and loans in khr",
+    "relevant_dataset_ids": [
+      "pd_676e62a093d4f00001fc572d",
+      "pd_676e621493d4f00001fc572b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e621493d4f00001fc572b",
+    "query_title": "Weighted Average Rate on New Amount​ of Interest rate on deposit and loans in KHR 2022",
+    "series_key": "weighted average rate on new amount of interest rate on deposit and loans in khr",
+    "relevant_dataset_ids": [
+      "pd_676e62a093d4f00001fc572d",
+      "pd_676e624793d4f00001fc572c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e5cbe93d4f00001fc5729",
+    "query_title": "Some Asean and European Currency against Khmer Riel (End Period Buying Rate) in 2022",
+    "series_key": "some asean and european currency against khmer riel end period buying rate in",
+    "relevant_dataset_ids": [
+      "pd_676e5c9393d4f00001fc5728"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e5c9393d4f00001fc5728",
+    "query_title": "Some Asean and European Currency against Khmer Riel (End Period Buying Rate) in ​2023",
+    "series_key": "some asean and european currency against khmer riel end period buying rate in",
+    "relevant_dataset_ids": [
+      "pd_676e5cbe93d4f00001fc5729"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e582693d4f00001fc5723",
+    "query_title": "Statistics of Important Items Export from Jan-Nov 2024",
+    "series_key": "statistics of important items export from jan nov",
+    "relevant_dataset_ids": [
+      "pd_675fd73e255e6c000124820b",
+      "pd_675fb4f1255e6c0001248207"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fd73e255e6c000124820b",
+    "query_title": "Statistics of Important Items Export from Jan-Nov 2022",
+    "series_key": "statistics of important items export from jan nov",
+    "relevant_dataset_ids": [
+      "pd_676e582693d4f00001fc5723",
+      "pd_675fb4f1255e6c0001248207"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fb4f1255e6c0001248207",
+    "query_title": "Statistics of Important Items Export from Jan-Nov 2023",
+    "series_key": "statistics of important items export from jan nov",
+    "relevant_dataset_ids": [
+      "pd_676e582693d4f00001fc5723",
+      "pd_675fd73e255e6c000124820b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e57ac93d4f00001fc5722",
+    "query_title": "Statistics of Main Items Import from Jan-Nov 2024\t",
+    "series_key": "statistics of main items import from jan nov",
+    "relevant_dataset_ids": [
+      "pd_675fd77d255e6c000124820c",
+      "pd_675fd535255e6c0001248208"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fd77d255e6c000124820c",
+    "query_title": "Statistics of Main Items Import from Jan-Nov 2022",
+    "series_key": "statistics of main items import from jan nov",
+    "relevant_dataset_ids": [
+      "pd_676e57ac93d4f00001fc5722",
+      "pd_675fd535255e6c0001248208"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fd535255e6c0001248208",
+    "query_title": "Statistics of Main Items Import from Jan-Nov 2023\t",
+    "series_key": "statistics of main items import from jan nov",
+    "relevant_dataset_ids": [
+      "pd_676e57ac93d4f00001fc5722",
+      "pd_675fd77d255e6c000124820c"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_676e570193d4f00001fc5721",
+    "query_title": "Trade with Keys Partners Countries from Jan-Nov 2024",
+    "series_key": "trade with keys partners countries from jan nov",
+    "relevant_dataset_ids": [
+      "pd_675fd602255e6c000124820a",
+      "pd_675fb32b255e6c0001248206"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fd602255e6c000124820a",
+    "query_title": "Trade with Keys Partners Countries from Jan-Nov 2022",
+    "series_key": "trade with keys partners countries from jan nov",
+    "relevant_dataset_ids": [
+      "pd_676e570193d4f00001fc5721",
+      "pd_675fb32b255e6c0001248206"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fb32b255e6c0001248206",
+    "query_title": "Trade with Keys Partners Countries from Jan-Nov 2023",
+    "series_key": "trade with keys partners countries from jan nov",
+    "relevant_dataset_ids": [
+      "pd_676e570193d4f00001fc5721",
+      "pd_675fd602255e6c000124820a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fd595255e6c0001248209",
+    "query_title": "New Business Registration from Jan-Nov of 2022",
+    "series_key": "new business registration from jan nov of",
+    "relevant_dataset_ids": [
+      "pd_675fa734255e6c0001248204",
+      "pd_674400f14aca29000102aa51"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_675fa734255e6c0001248204",
+    "query_title": "New Business Registration from Jan-Nov of 2023",
+    "series_key": "new business registration from jan nov of",
+    "relevant_dataset_ids": [
+      "pd_675fd595255e6c0001248209",
+      "pd_674400f14aca29000102aa51"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_674400f14aca29000102aa51",
+    "query_title": "New Business Registration from  Jan-Nov of 2024",
+    "series_key": "new business registration from jan nov of",
+    "relevant_dataset_ids": [
+      "pd_675fd595255e6c0001248209",
+      "pd_675fa734255e6c0001248204"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6743e7964aca29000102aa48",
+    "query_title": "Insurance Statistics 2022",
+    "series_key": "insurance statistics",
+    "relevant_dataset_ids": [
+      "pd_6743e7624aca29000102aa47",
+      "pd_6743e73a4aca29000102aa46",
+      "pd_6743e6ea4aca29000102aa45"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6743e7624aca29000102aa47",
+    "query_title": "Insurance Statistics 2021",
+    "series_key": "insurance statistics",
+    "relevant_dataset_ids": [
+      "pd_6743e7964aca29000102aa48",
+      "pd_6743e73a4aca29000102aa46",
+      "pd_6743e6ea4aca29000102aa45"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6743e73a4aca29000102aa46",
+    "query_title": "Insurance Statistics 2020",
+    "series_key": "insurance statistics",
+    "relevant_dataset_ids": [
+      "pd_6743e7964aca29000102aa48",
+      "pd_6743e7624aca29000102aa47",
+      "pd_6743e6ea4aca29000102aa45"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_6743e6ea4aca29000102aa45",
+    "query_title": "Insurance Statistics 2019",
+    "series_key": "insurance statistics",
+    "relevant_dataset_ids": [
+      "pd_6743e7964aca29000102aa48",
+      "pd_6743e7624aca29000102aa47",
+      "pd_6743e73a4aca29000102aa46"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_671b119540cc5500017936f6",
+    "query_title": "Budgetary Central Government Expense of GFS, FY2023",
+    "series_key": "budgetary central government expense of gfs",
+    "relevant_dataset_ids": [
+      "pd_671b112e40cc5500017936f4"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_671b112e40cc5500017936f4",
+    "query_title": "Budgetary Central Government Expense of GFS, FY2022",
+    "series_key": "budgetary central government expense of gfs",
+    "relevant_dataset_ids": [
+      "pd_671b119540cc5500017936f6"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c949eb6c00013c12a3",
+    "query_title": "Cambodia Public Domestic Debt, FY2023",
+    "series_key": "cambodia public domestic debt",
+    "relevant_dataset_ids": [
+      "pd_66b498c349eb6c00013c129b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c349eb6c00013c129b",
+    "query_title": "Cambodia Public Domestic Debt, FY2022",
+    "series_key": "cambodia public domestic debt",
+    "relevant_dataset_ids": [
+      "pd_66b498c949eb6c00013c12a3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c649eb6c00013c129f",
+    "query_title": "Public External Debt Disbursement by Creditor Quarterly FY2025",
+    "series_key": "public external debt disbursement by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c649eb6c00013c129e",
+      "pd_66b498c049eb6c00013c1297",
+      "pd_66b498c049eb6c00013c1296"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c649eb6c00013c129e",
+    "query_title": "Public External Debt Disbursement by Creditor Quarterly FY2023",
+    "series_key": "public external debt disbursement by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c649eb6c00013c129f",
+      "pd_66b498c049eb6c00013c1297",
+      "pd_66b498c049eb6c00013c1296"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c049eb6c00013c1297",
+    "query_title": "Public External Debt Disbursement by Creditor Quarterly FY2024",
+    "series_key": "public external debt disbursement by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c649eb6c00013c129f",
+      "pd_66b498c649eb6c00013c129e",
+      "pd_66b498c049eb6c00013c1296"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c049eb6c00013c1296",
+    "query_title": "Public External Debt Disbursement by Creditor Quarterly FY2022",
+    "series_key": "public external debt disbursement by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c649eb6c00013c129f",
+      "pd_66b498c649eb6c00013c129e",
+      "pd_66b498c049eb6c00013c1297"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c549eb6c00013c129d",
+    "query_title": "Public External Debt Stock by Creditor Quarterly FY2025",
+    "series_key": "public external debt stock by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c449eb6c00013c129c",
+      "pd_66b498bf49eb6c00013c1295",
+      "pd_66b498be49eb6c00013c1294"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498c449eb6c00013c129c",
+    "query_title": "Public External Debt Stock by Creditor Quarterly FY2023",
+    "series_key": "public external debt stock by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c549eb6c00013c129d",
+      "pd_66b498bf49eb6c00013c1295",
+      "pd_66b498be49eb6c00013c1294"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498bf49eb6c00013c1295",
+    "query_title": "Public External Debt Stock by Creditor Quarterly FY2024",
+    "series_key": "public external debt stock by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c549eb6c00013c129d",
+      "pd_66b498c449eb6c00013c129c",
+      "pd_66b498be49eb6c00013c1294"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498be49eb6c00013c1294",
+    "query_title": "Public External Debt Stock by Creditor Quarterly FY2022",
+    "series_key": "public external debt stock by creditor quarterly",
+    "relevant_dataset_ids": [
+      "pd_66b498c549eb6c00013c129d",
+      "pd_66b498c449eb6c00013c129c",
+      "pd_66b498bf49eb6c00013c1295"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498bd49eb6c00013c1292",
+    "query_title": "Import statistic 2020",
+    "series_key": "import statistic",
+    "relevant_dataset_ids": [
+      "pd_66b498bc49eb6c00013c1291"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498bc49eb6c00013c1291",
+    "query_title": "Import statistic 2019",
+    "series_key": "import statistic",
+    "relevant_dataset_ids": [
+      "pd_66b498bd49eb6c00013c1292"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498bb49eb6c00013c1290",
+    "query_title": "Cambodia's Export Statistic, 2020",
+    "series_key": "cambodia s export statistic",
+    "relevant_dataset_ids": [
+      "pd_66b498ba49eb6c00013c128f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ba49eb6c00013c128f",
+    "query_title": "Cambodia's Export Statistic, 2019",
+    "series_key": "cambodia s export statistic",
+    "relevant_dataset_ids": [
+      "pd_66b498bb49eb6c00013c1290"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ba49eb6c00013c128e",
+    "query_title": "Social Security Expense by type of Benefit in 2022",
+    "series_key": "social security expense by type of benefit in",
+    "relevant_dataset_ids": [
+      "pd_66b498b849eb6c00013c128c",
+      "pd_66b498b749eb6c00013c128a",
+      "pd_66b498b549eb6c00013c1288"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b849eb6c00013c128c",
+    "query_title": "Social Security Expense by type of Benefit in 2021",
+    "series_key": "social security expense by type of benefit in",
+    "relevant_dataset_ids": [
+      "pd_66b498ba49eb6c00013c128e",
+      "pd_66b498b749eb6c00013c128a",
+      "pd_66b498b549eb6c00013c1288"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b749eb6c00013c128a",
+    "query_title": "Social Security Expense by type of Benefit in 2020",
+    "series_key": "social security expense by type of benefit in",
+    "relevant_dataset_ids": [
+      "pd_66b498ba49eb6c00013c128e",
+      "pd_66b498b849eb6c00013c128c",
+      "pd_66b498b549eb6c00013c1288"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b549eb6c00013c1288",
+    "query_title": "Social Security Expense by type of Benefit in 2019",
+    "series_key": "social security expense by type of benefit in",
+    "relevant_dataset_ids": [
+      "pd_66b498ba49eb6c00013c128e",
+      "pd_66b498b849eb6c00013c128c",
+      "pd_66b498b749eb6c00013c128a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b949eb6c00013c128d",
+    "query_title": "Number of Enterprise and Worker paid-contribution to NSSF in 2022",
+    "series_key": "number of enterprise and worker paid contribution to nssf in",
+    "relevant_dataset_ids": [
+      "pd_66b498b849eb6c00013c128b",
+      "pd_66b498b649eb6c00013c1289",
+      "pd_66b498b449eb6c00013c1287",
+      "pd_66b498b449eb6c00013c1286",
+      "pd_66b498b349eb6c00013c1285",
+      "pd_66b498b249eb6c00013c1284"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b849eb6c00013c128b",
+    "query_title": "Number of Enterprise and Worker paid-contribution to NSSF in 2021",
+    "series_key": "number of enterprise and worker paid contribution to nssf in",
+    "relevant_dataset_ids": [
+      "pd_66b498b949eb6c00013c128d",
+      "pd_66b498b649eb6c00013c1289",
+      "pd_66b498b449eb6c00013c1287",
+      "pd_66b498b449eb6c00013c1286",
+      "pd_66b498b349eb6c00013c1285",
+      "pd_66b498b249eb6c00013c1284"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b649eb6c00013c1289",
+    "query_title": "Number of Enterprise and Worker paid-contribution to NSSF in 2020",
+    "series_key": "number of enterprise and worker paid contribution to nssf in",
+    "relevant_dataset_ids": [
+      "pd_66b498b949eb6c00013c128d",
+      "pd_66b498b849eb6c00013c128b",
+      "pd_66b498b449eb6c00013c1287",
+      "pd_66b498b449eb6c00013c1286",
+      "pd_66b498b349eb6c00013c1285",
+      "pd_66b498b249eb6c00013c1284"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b449eb6c00013c1287",
+    "query_title": "Number of Enterprise and Worker paid-contribution to NSSF in 2019",
+    "series_key": "number of enterprise and worker paid contribution to nssf in",
+    "relevant_dataset_ids": [
+      "pd_66b498b949eb6c00013c128d",
+      "pd_66b498b849eb6c00013c128b",
+      "pd_66b498b649eb6c00013c1289",
+      "pd_66b498b449eb6c00013c1286",
+      "pd_66b498b349eb6c00013c1285",
+      "pd_66b498b249eb6c00013c1284"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b449eb6c00013c1286",
+    "query_title": "Number of Enterprise and Worker paid-contribution to NSSF in 2018",
+    "series_key": "number of enterprise and worker paid contribution to nssf in",
+    "relevant_dataset_ids": [
+      "pd_66b498b949eb6c00013c128d",
+      "pd_66b498b849eb6c00013c128b",
+      "pd_66b498b649eb6c00013c1289",
+      "pd_66b498b449eb6c00013c1287",
+      "pd_66b498b349eb6c00013c1285",
+      "pd_66b498b249eb6c00013c1284"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b349eb6c00013c1285",
+    "query_title": "Number of Enterprise and Worker paid-contribution to NSSF in 2008-2017",
+    "series_key": "number of enterprise and worker paid contribution to nssf in",
+    "relevant_dataset_ids": [
+      "pd_66b498b949eb6c00013c128d",
+      "pd_66b498b849eb6c00013c128b",
+      "pd_66b498b649eb6c00013c1289",
+      "pd_66b498b449eb6c00013c1287",
+      "pd_66b498b449eb6c00013c1286",
+      "pd_66b498b249eb6c00013c1284"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498b249eb6c00013c1284",
+    "query_title": "Number of Enterprise and Worker paid-contribution to NSSF in 2016",
+    "series_key": "number of enterprise and worker paid contribution to nssf in",
+    "relevant_dataset_ids": [
+      "pd_66b498b949eb6c00013c128d",
+      "pd_66b498b849eb6c00013c128b",
+      "pd_66b498b649eb6c00013c1289",
+      "pd_66b498b449eb6c00013c1287",
+      "pd_66b498b449eb6c00013c1286",
+      "pd_66b498b349eb6c00013c1285"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498ab49eb6c00013c127a",
+    "query_title": "Statistic by Contract Savings, FY2023",
+    "series_key": "statistic by contract savings",
+    "relevant_dataset_ids": [
+      "pd_66b498aa49eb6c00013c1279",
+      "pd_66b498a949eb6c00013c1278",
+      "pd_66b498a849eb6c00013c1277",
+      "pd_66b498a749eb6c00013c1276",
+      "pd_66b498a749eb6c00013c1275",
+      "pd_66b498a649eb6c00013c1274"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498aa49eb6c00013c1279",
+    "query_title": "Statistic by Contract Savings, FY2022",
+    "series_key": "statistic by contract savings",
+    "relevant_dataset_ids": [
+      "pd_66b498ab49eb6c00013c127a",
+      "pd_66b498a949eb6c00013c1278",
+      "pd_66b498a849eb6c00013c1277",
+      "pd_66b498a749eb6c00013c1276",
+      "pd_66b498a749eb6c00013c1275",
+      "pd_66b498a649eb6c00013c1274"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498a949eb6c00013c1278",
+    "query_title": "Statistic by Contract Savings, FY2021",
+    "series_key": "statistic by contract savings",
+    "relevant_dataset_ids": [
+      "pd_66b498ab49eb6c00013c127a",
+      "pd_66b498aa49eb6c00013c1279",
+      "pd_66b498a849eb6c00013c1277",
+      "pd_66b498a749eb6c00013c1276",
+      "pd_66b498a749eb6c00013c1275",
+      "pd_66b498a649eb6c00013c1274"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498a849eb6c00013c1277",
+    "query_title": "Statistic by Contract Savings, FY2020",
+    "series_key": "statistic by contract savings",
+    "relevant_dataset_ids": [
+      "pd_66b498ab49eb6c00013c127a",
+      "pd_66b498aa49eb6c00013c1279",
+      "pd_66b498a949eb6c00013c1278",
+      "pd_66b498a749eb6c00013c1276",
+      "pd_66b498a749eb6c00013c1275",
+      "pd_66b498a649eb6c00013c1274"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498a749eb6c00013c1276",
+    "query_title": "Statistic by Contract Savings, FY2019",
+    "series_key": "statistic by contract savings",
+    "relevant_dataset_ids": [
+      "pd_66b498ab49eb6c00013c127a",
+      "pd_66b498aa49eb6c00013c1279",
+      "pd_66b498a949eb6c00013c1278",
+      "pd_66b498a849eb6c00013c1277",
+      "pd_66b498a749eb6c00013c1275",
+      "pd_66b498a649eb6c00013c1274"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498a749eb6c00013c1275",
+    "query_title": "Statistic by Contract Savings, FY2018",
+    "series_key": "statistic by contract savings",
+    "relevant_dataset_ids": [
+      "pd_66b498ab49eb6c00013c127a",
+      "pd_66b498aa49eb6c00013c1279",
+      "pd_66b498a949eb6c00013c1278",
+      "pd_66b498a849eb6c00013c1277",
+      "pd_66b498a749eb6c00013c1276",
+      "pd_66b498a649eb6c00013c1274"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66b498a649eb6c00013c1274",
+    "query_title": "Statistic by Contract Savings, FY2017",
+    "series_key": "statistic by contract savings",
+    "relevant_dataset_ids": [
+      "pd_66b498ab49eb6c00013c127a",
+      "pd_66b498aa49eb6c00013c1279",
+      "pd_66b498a949eb6c00013c1278",
+      "pd_66b498a849eb6c00013c1277",
+      "pd_66b498a749eb6c00013c1276",
+      "pd_66b498a749eb6c00013c1275"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab611cbcc3db0001df673d",
+    "query_title": "Statistic Report Equity Securities, 2024",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab611cbcc3db0001df673c",
+    "query_title": "Statistic Report Equity Securities, 2023",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab611bbcc3db0001df673b",
+    "query_title": "Statistic Report Equity Securities, 2022",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab611abcc3db0001df673a",
+    "query_title": "Statistic Report Equity Securities, 2021",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab6119bcc3db0001df6739",
+    "query_title": "Statistic Report Equity Securities, 2020",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab6119bcc3db0001df6738",
+    "query_title": "Statistic Report Equity Securities, 2019",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab6118bcc3db0001df6737",
+    "query_title": "Statistic Report Equity Securities, 2018",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab6117bcc3db0001df6736",
+    "query_title": "Statistic Report Equity Securities, 2017",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab6116bcc3db0001df6735",
+    "query_title": "Statistic Report Equity Securities, 2016",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6734",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab6116bcc3db0001df6734",
+    "query_title": "Statistic Report Equity Securities, 2015",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6115bcc3db0001df6733"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66ab6115bcc3db0001df6733",
+    "query_title": "Statistic Report Equity Securities, 2014",
+    "series_key": "statistic report equity securities",
+    "relevant_dataset_ids": [
+      "pd_66ab611cbcc3db0001df673d",
+      "pd_66ab611cbcc3db0001df673c",
+      "pd_66ab611bbcc3db0001df673b",
+      "pd_66ab611abcc3db0001df673a",
+      "pd_66ab6119bcc3db0001df6739",
+      "pd_66ab6119bcc3db0001df6738",
+      "pd_66ab6118bcc3db0001df6737",
+      "pd_66ab6117bcc3db0001df6736",
+      "pd_66ab6116bcc3db0001df6735",
+      "pd_66ab6116bcc3db0001df6734"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f8c836d76b00019fe8e5",
+    "query_title": "National Current and Capital Expenditure by Ministry in the Budget in Brief FY2026",
+    "series_key": "national current and capital expenditure by ministry in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_66a9f8c736d76b00019fe8e4",
+      "pd_66a9f8c636d76b00019fe8e3",
+      "pd_66a9f88e36d76b00019fe8c5",
+      "pd_66a9f88e36d76b00019fe8c4",
+      "pd_66a9f88d36d76b00019fe8c3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f8c736d76b00019fe8e4",
+    "query_title": "National Current and Capital Expenditure by Ministry in the Budget in Brief FY2025",
+    "series_key": "national current and capital expenditure by ministry in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_66a9f8c836d76b00019fe8e5",
+      "pd_66a9f8c636d76b00019fe8e3",
+      "pd_66a9f88e36d76b00019fe8c5",
+      "pd_66a9f88e36d76b00019fe8c4",
+      "pd_66a9f88d36d76b00019fe8c3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f8c636d76b00019fe8e3",
+    "query_title": "National Current and Capital Expenditure by Ministry in the Budget in Brief FY2024",
+    "series_key": "national current and capital expenditure by ministry in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_66a9f8c836d76b00019fe8e5",
+      "pd_66a9f8c736d76b00019fe8e4",
+      "pd_66a9f88e36d76b00019fe8c5",
+      "pd_66a9f88e36d76b00019fe8c4",
+      "pd_66a9f88d36d76b00019fe8c3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f88e36d76b00019fe8c5",
+    "query_title": "National Current and Capital Expenditure by Ministry in the Budget in Brief FY2023",
+    "series_key": "national current and capital expenditure by ministry in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_66a9f8c836d76b00019fe8e5",
+      "pd_66a9f8c736d76b00019fe8e4",
+      "pd_66a9f8c636d76b00019fe8e3",
+      "pd_66a9f88e36d76b00019fe8c4",
+      "pd_66a9f88d36d76b00019fe8c3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f88e36d76b00019fe8c4",
+    "query_title": "National Current and Capital Expenditure by Ministry in the Budget in Brief FY2022",
+    "series_key": "national current and capital expenditure by ministry in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_66a9f8c836d76b00019fe8e5",
+      "pd_66a9f8c736d76b00019fe8e4",
+      "pd_66a9f8c636d76b00019fe8e3",
+      "pd_66a9f88e36d76b00019fe8c5",
+      "pd_66a9f88d36d76b00019fe8c3"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f88d36d76b00019fe8c3",
+    "query_title": "National Current and Capital Expenditure by Ministry in the Budget in Brief FY2021",
+    "series_key": "national current and capital expenditure by ministry in the budget in brief",
+    "relevant_dataset_ids": [
+      "pd_66a9f8c836d76b00019fe8e5",
+      "pd_66a9f8c736d76b00019fe8e4",
+      "pd_66a9f8c636d76b00019fe8e3",
+      "pd_66a9f88e36d76b00019fe8c5",
+      "pd_66a9f88e36d76b00019fe8c4"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f72836d76b00019fe87c",
+    "query_title": "Population in five-year age-groups persons of Cambodia 2019",
+    "series_key": "population in five year age groups persons of cambodia",
+    "relevant_dataset_ids": [
+      "pd_66a9f72836d76b00019fe87b",
+      "pd_66a9f72736d76b00019fe87a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f72836d76b00019fe87b",
+    "query_title": "Population in five-year age-groups persons of Cambodia 2008",
+    "series_key": "population in five year age groups persons of cambodia",
+    "relevant_dataset_ids": [
+      "pd_66a9f72836d76b00019fe87c",
+      "pd_66a9f72736d76b00019fe87a"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a9f72736d76b00019fe87a",
+    "query_title": "Population in five-year age-groups persons of Cambodia 1998",
+    "series_key": "population in five year age groups persons of cambodia",
+    "relevant_dataset_ids": [
+      "pd_66a9f72836d76b00019fe87c",
+      "pd_66a9f72836d76b00019fe87b"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8604200604c000123e152",
+    "query_title": "Cambodia Public Education Statistics 2016-2017",
+    "series_key": "cambodia public education statistics",
+    "relevant_dataset_ids": [
+      "pd_66a8604100604c000123e151",
+      "pd_66a8604000604c000123e150",
+      "pd_66a8604000604c000123e14f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8604100604c000123e151",
+    "query_title": "Cambodia Public Education Statistics 2017-2018",
+    "series_key": "cambodia public education statistics",
+    "relevant_dataset_ids": [
+      "pd_66a8604200604c000123e152",
+      "pd_66a8604000604c000123e150",
+      "pd_66a8604000604c000123e14f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8604000604c000123e150",
+    "query_title": "Cambodia Public Education Statistics 2018-2019",
+    "series_key": "cambodia public education statistics",
+    "relevant_dataset_ids": [
+      "pd_66a8604200604c000123e152",
+      "pd_66a8604100604c000123e151",
+      "pd_66a8604000604c000123e14f"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8604000604c000123e14f",
+    "query_title": "Cambodia Public Education Statistics 2020-2021",
+    "series_key": "cambodia public education statistics",
+    "relevant_dataset_ids": [
+      "pd_66a8604200604c000123e152",
+      "pd_66a8604100604c000123e151",
+      "pd_66a8604000604c000123e150"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8603e00604c000123e14d",
+    "query_title": "National Election of Cambodia 2023 - Province Results",
+    "series_key": "national election of cambodia province results",
+    "relevant_dataset_ids": [
+      "pd_66a8603d00604c000123e14c",
+      "pd_66a8603d00604c000123e14b",
+      "pd_66a8603b00604c000123e149",
+      "pd_66a8603a00604c000123e148"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8603d00604c000123e14c",
+    "query_title": "National Election of Cambodia 2018 - Province Results",
+    "series_key": "national election of cambodia province results",
+    "relevant_dataset_ids": [
+      "pd_66a8603e00604c000123e14d",
+      "pd_66a8603d00604c000123e14b",
+      "pd_66a8603b00604c000123e149",
+      "pd_66a8603a00604c000123e148"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8603d00604c000123e14b",
+    "query_title": "National Election of Cambodia 2013 - Province Results",
+    "series_key": "national election of cambodia province results",
+    "relevant_dataset_ids": [
+      "pd_66a8603e00604c000123e14d",
+      "pd_66a8603d00604c000123e14c",
+      "pd_66a8603b00604c000123e149",
+      "pd_66a8603a00604c000123e148"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8603b00604c000123e149",
+    "query_title": "National Election of Cambodia 2003 - Province Results",
+    "series_key": "national election of cambodia province results",
+    "relevant_dataset_ids": [
+      "pd_66a8603e00604c000123e14d",
+      "pd_66a8603d00604c000123e14c",
+      "pd_66a8603d00604c000123e14b",
+      "pd_66a8603a00604c000123e148"
+    ],
+    "label_source": "rule_based"
+  },
+  {
+    "track": "temporal_variant",
+    "query_dataset_id": "pd_66a8603a00604c000123e148",
+    "query_title": "National Election of Cambodia 1998 - Province Results",
+    "series_key": "national election of cambodia province results",
+    "relevant_dataset_ids": [
+      "pd_66a8603e00604c000123e14d",
+      "pd_66a8603d00604c000123e14c",
+      "pd_66a8603d00604c000123e14b",
+      "pd_66a8603b00604c000123e149"
+    ],
+    "label_source": "rule_based"
+  }
+]

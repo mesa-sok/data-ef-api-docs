@@ -3,7 +3,7 @@
 All scripts live in `scripts/` and are run with `uv run`:
 
 ```bash
-uv run scripts/<script_name>.py
+uv run scripts/<category>/<script_name>.py
 ```
 
 ---
@@ -27,7 +27,7 @@ Exercises every Public Datasets API endpoint in sequence and pretty-prints the J
 | 9 | `GET /api/v1/public-datasets/{first_id}/json?page=1&page_size=5` |
 
 ```bash
-uv run scripts/public_datasets.py
+uv run scripts/explore/public_datasets.py
 ```
 
 **Sample output (truncated):**
@@ -71,7 +71,7 @@ Demonstrates the Events and News endpoints.
 | 3 | `GET /api/v1/events-and-news/{first_slug}` (first article detail) |
 
 ```bash
-uv run scripts/events_news.py
+uv run scripts/explore/events_news.py
 ```
 
 ---
@@ -94,7 +94,7 @@ Exercises all six Realtime API endpoints.
 | 8 | `GET /api/v1/realtime-api/csx-summary` |
 
 ```bash
-uv run scripts/realtime_api.py
+uv run scripts/explore/realtime_api.py
 ```
 
 **Sample CSX index output:**
@@ -124,7 +124,7 @@ Demonstrates the contact form endpoint.
 **Edit the placeholder values before running.**
 
 ```bash
-uv run scripts/contact.py
+uv run scripts/explore/contact.py
 ```
 
 ---
@@ -134,7 +134,7 @@ uv run scripts/contact.py
 Fetches `/filter-options` and `/count-data` to show how datasets are distributed across categories, organisations, and formats. Prints a strategy recommendation.
 
 ```bash
-uv run scripts/explore_filters.py
+uv run scripts/explore/explore_filters.py
 ```
 
 **Sample output:**
@@ -196,16 +196,16 @@ uv run scripts/fetch_all_datasets.py
 
 ```bash
 # Standard run — full harvest into output/
-uv run scripts/fetch_all_datasets.py
+uv run scripts/harvest/fetch_all_datasets.py
 
 # Save to artifacts/ (as committed in this repo)
-DATA_DIR=artifacts uv run scripts/fetch_all_datasets.py
+DATA_DIR=artifacts uv run scripts/harvest/fetch_all_datasets.py
 
 # Quick test — first 20 datasets only, metadata only
-MAX_DATASETS=20 FETCH_DATA=false uv run scripts/fetch_all_datasets.py
+MAX_DATASETS=20 FETCH_DATA=false uv run scripts/harvest/fetch_all_datasets.py
 
 # Silent, custom output path
-VERBOSE=false DATA_DIR=/tmp/ef-data uv run scripts/fetch_all_datasets.py
+VERBOSE=false DATA_DIR=/tmp/ef-data uv run scripts/harvest/fetch_all_datasets.py
 ```
 
 ### Output files

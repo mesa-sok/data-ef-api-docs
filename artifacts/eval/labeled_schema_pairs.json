@@ -1,0 +1,815 @@
+[
+  {
+    "dataset_a_id": "pd_6889da6879fe4d000795ecf4",
+    "dataset_a_title": "Number of Enterprise and Worker paid-contribution to NSSF from 2018 to 2022",
+    "dataset_b_id": "pd_6889d1df79fe4d000795ecf2",
+    "dataset_b_title": "Statistic by Procurement Type, FY2017 - FY2023",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "variable",
+      "year",
+      "value"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": false,
+    "reasoning": "They both come from government administrative statistics, but they cover different domains: NSSF contribution data versus procurement statistics. They do not share a strong common entity or geographic key for analysis beyond year, so they are not meaningfully joinable.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_684144ccdf8be20001ff3db3",
+    "dataset_a_title": "Cambodia Rice Export Summary from Jan-May in 2025",
+    "dataset_b_id": "pd_678f88f325d1a200018107d6",
+    "dataset_b_title": "GDCE Collected Revenue vs Target, FY2023",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "category",
+      "value"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": false,
+    "reasoning": "They are in different domains: one summarizes rice exports, while the other tracks government revenue collection versus target. They do not share a strong common entity or geographic key for reliable joining; only generic fields like category and value are present.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67a02ddf66a35300013bf9b2",
+    "dataset_a_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2025",
+    "dataset_b_id": "pd_6768c6d8255e6c000124827f",
+    "dataset_b_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2021",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "cambodia_kuntha_bopha_foundation",
+      "donate_amount"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": false,
+    "reasoning": "Both datasets cover the same topic: donations from Angkor Enterprise to the Cambodia Kantha Bopha Foundation, just in different years. They do not share a strong entity or geographic key for joining; the common columns are too generic for reliable record-level linkage.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67a02ddf66a35300013bf9b2",
+    "dataset_a_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2025",
+    "dataset_b_id": "pd_675fecec255e6c0001248218",
+    "dataset_b_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2023",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "cambodia_kuntha_bopha_foundation",
+      "donate_amount"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets cover the same topic: donations from Angkor Enterprise to the Cambodia Kantha Bopha Foundation, just for different years. They are joinable because they share a strong entity key in the foundation name, which supports cross-year comparison.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67a02ddf66a35300013bf9b2",
+    "dataset_a_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2025",
+    "dataset_b_id": "pd_675fecbf255e6c0001248217",
+    "dataset_b_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2024",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "cambodia_kuntha_bopha_foundation",
+      "donate_amount"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": false,
+    "reasoning": "Both datasets cover the same topic: donations from Angkor Enterprise to the Cambodia Kantha Bopha Foundation, just for different years. They do not share a strong join key beyond the repeated foundation name and donation amount, so they are not reliably joinable for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_6768c6d8255e6c000124827f",
+    "dataset_a_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2021",
+    "dataset_b_id": "pd_6760f15d255e6c000124823c",
+    "dataset_b_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2022",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "cambodia_kuntha_bopha_foundation",
+      "donate_amount"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": false,
+    "reasoning": "Both datasets cover the same domain: donations from Angkor Enterprise to Cambodia Kantha Bopha Foundation, just for different years. They do not share a strong entity or geographic key for meaningful analysis-level joining; the shared foundation field is effectively constant and year alone is a weak join key.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67624d2c255e6c0001248260",
+    "dataset_a_title": "Forest area (% of land area) - Cambodia between 1990 to 2022",
+    "dataset_b_id": "pd_67614347255e6c000124824d",
+    "dataset_b_title": "Access to electricity (% of population) - Cambodia",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code",
+      "value"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both country-level development indicators for Cambodia, but they measure different domains: environmental land use vs infrastructure/access to services. They are joinable because they share strong geographic and time keys (country_name/country_code and year), which support analysis after merging.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_676243de255e6c0001248257",
+    "dataset_a_title": "Cambodia's Foreign Direct Investment, Net Inflows (% of GDP) between 1975-2023",
+    "dataset_b_id": "pd_67614347255e6c000124824d",
+    "dataset_b_title": "Access to electricity (% of population) - Cambodia",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code",
+      "value"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are country-level development indicators for Cambodia, so they fall within the same broad socioeconomic domain. They are also joinable because they share strong keys like country_name/country_code and year, allowing straightforward alignment for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614347255e6c000124824d",
+    "dataset_a_title": "Access to electricity (% of population) - Cambodia",
+    "dataset_b_id": "pd_67613c71255e6c0001248249",
+    "dataset_b_title": "Unemployment, total (% of total labor force) (modeled ILO estimate) - Cambodia, 1991 - 2023",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code",
+      "value"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both national development indicators, but they cover different domains: electricity access versus labor market unemployment. They are joinable because they share a strong geographic key (Cambodia) and a common time dimension (year), which supports analysis across the two datasets.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614347255e6c000124824d",
+    "dataset_a_title": "Access to electricity (% of population) - Cambodia",
+    "dataset_b_id": "pd_67612ef4255e6c0001248246",
+    "dataset_b_title": "Cambodia's GDP (current US$) between 1975 to 2023",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code",
+      "value"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are country-level development indicators for Cambodia, so they fall within the same broad socioeconomic domain. They are strongly joinable on country and year, since both share Cambodia as the entity and have yearly observations.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614347255e6c000124824d",
+    "dataset_a_title": "Access to electricity (% of population) - Cambodia",
+    "dataset_b_id": "pd_67612ac9255e6c0001248242",
+    "dataset_b_title": "Cambodia's GDP growth (annual %) from 1983 to 2023",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code",
+      "value"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are Cambodia-wide development indicators, so they fall within the same broad socioeconomic/economic domain. They are strongly joinable on country (and year for time-series analysis), which provides a reliable geographic/entity key.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_6760f15d255e6c000124823c",
+    "dataset_a_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2022",
+    "dataset_b_id": "pd_675fecec255e6c0001248218",
+    "dataset_b_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2023",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "cambodia_kuntha_bopha_foundation",
+      "donate_amount"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": false,
+    "reasoning": "Both datasets cover the same topic: annual donations from Angkor Enterprise to the Cambodia Kantha Bopha Foundation. However, they do not share a strong entity or geographic key for analysis beyond the foundation name and year-specific records, so they are not meaningfully joinable.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_6760f15d255e6c000124823c",
+    "dataset_a_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2022",
+    "dataset_b_id": "pd_675fecbf255e6c0001248217",
+    "dataset_b_title": "Donation from Angkor Enterprise to Cambodia Kantha Bopha Foundation 2024",
+    "jaccard_score": 1.0,
+    "shared_columns": [
+      "cambodia_kuntha_bopha_foundation",
+      "donate_amount"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": false,
+    "reasoning": "Both datasets cover the same topic: donations from Angkor Enterprise to the Cambodia Kantha Bopha Foundation, just for different years. They do not appear to share a strong join key beyond the same single foundation/entity and donation amount, so they are not meaningfully joinable for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_66ab6112bcc3db0001df672f",
+    "dataset_a_title": "DPs Mainstreaming of PSD in 2019-2021",
+    "dataset_b_id": "pd_66ab6112bcc3db0001df672e",
+    "dataset_b_title": "DPs Mainstreaming of Climate Change in 2019-2021",
+    "jaccard_score": 0.778,
+    "shared_columns": [
+      "significant",
+      "oda_2020_usd_million",
+      "moderate",
+      "oda_2021_by_dp_usd_million",
+      "oda_2019_usd_million",
+      "development_partner",
+      "minor"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both about development partners and ODA mainstreaming, but one focuses on private sector development and the other on climate change, so the core topics differ. They are joinable on the shared development_partner entity (with year-based ODA fields available for analysis).",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_66ab6112bcc3db0001df672f",
+    "dataset_a_title": "DPs Mainstreaming of PSD in 2019-2021",
+    "dataset_b_id": "pd_66ab610fbcc3db0001df672a",
+    "dataset_b_title": "DPs Mainstreaming of Gender Equality in 2019-2021",
+    "jaccard_score": 0.778,
+    "shared_columns": [
+      "significant",
+      "oda_2020_usd_million",
+      "moderate",
+      "oda_2021_by_dp_usd_million",
+      "oda_2019_usd_million",
+      "development_partner",
+      "minor"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets track development partners’ mainstreaming of thematic priorities in ODA over 2019–2021, so they are in the same general aid/development-policy domain. They share a strong entity key, development_partner, which should allow joining for comparative analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67c95791c8ee8000013663ab",
+    "dataset_a_title": "Informal Economy Development As of the end of 2024",
+    "dataset_b_id": "pd_66a9f36836d76b00019fe837",
+    "dataset_b_title": "Average Banks Interest Rates on Deposit and Loan in Cambodia",
+    "jaccard_score": 0.75,
+    "shared_columns": [
+      "value",
+      "indicator",
+      "sub_indicator"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": false,
+    "reasoning": "They cover different domains: informal economy development versus banking interest rates. They do not appear to share a strong common entity or geographic key beyond generic metadata, so they are not suitable for a meaningful join.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67624d2c255e6c0001248260",
+    "dataset_a_title": "Forest area (% of land area) - Cambodia between 1990 to 2022",
+    "dataset_b_id": "pd_67614c99255e6c0001248251",
+    "dataset_b_title": "Individuals using the Internet in Cambodia from 1990 - 2022",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They cover different domains: environmental land use versus digital connectivity. They are joinable because both are country-level time series for Cambodia and share strong keys like country_name, country_code, and year.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67624d2c255e6c0001248260",
+    "dataset_a_title": "Forest area (% of land area) - Cambodia between 1990 to 2022",
+    "dataset_b_id": "pd_676127c6255e6c0001248241",
+    "dataset_b_title": "Population, total - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "The datasets cover different themes: one measures forest cover and the other measures total population. They are joinable because both are country-level time series for Cambodia and share strong keys like country_name/country_code and year.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67624d2c255e6c0001248260",
+    "dataset_a_title": "Forest area (% of land area) - Cambodia between 1990 to 2022",
+    "dataset_b_id": "pd_6760f7ec255e6c0001248240",
+    "dataset_b_title": "Cambodia population growth (annual %)",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both country-level time series for Cambodia, but they measure different domains: environmental land use versus demographic change. They are joinable because they share a strong geographic key (country/country_code) and the same year field for aligned analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_676243de255e6c0001248257",
+    "dataset_a_title": "Cambodia's Foreign Direct Investment, Net Inflows (% of GDP) between 1975-2023",
+    "dataset_b_id": "pd_67614c99255e6c0001248251",
+    "dataset_b_title": "Individuals using the Internet in Cambodia from 1990 - 2022",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They both describe Cambodia’s development indicators, but one is about foreign direct investment and the other is about internet usage, so they are not the same general topic. They are joinable because they share strong common keys like country_name/country_code and year for country-level analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_676243de255e6c0001248257",
+    "dataset_a_title": "Cambodia's Foreign Direct Investment, Net Inflows (% of GDP) between 1975-2023",
+    "dataset_b_id": "pd_676127c6255e6c0001248241",
+    "dataset_b_title": "Population, total - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "The datasets cover different topics: one measures foreign direct investment and the other measures total population, so they are not the same general domain. They are joinable because both are country-level time series with strong shared keys like country_name/country_code and year.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_676243de255e6c0001248257",
+    "dataset_a_title": "Cambodia's Foreign Direct Investment, Net Inflows (% of GDP) between 1975-2023",
+    "dataset_b_id": "pd_6760f7ec255e6c0001248240",
+    "dataset_b_title": "Cambodia population growth (annual %)",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets describe country-level socioeconomic trends for Cambodia, so they fall under the same broad development/economic domain. They are strongly joinable using the shared country and year fields (or country_code), which support direct analysis over time.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614c99255e6c0001248251",
+    "dataset_a_title": "Individuals using the Internet in Cambodia from 1990 - 2022",
+    "dataset_b_id": "pd_67613d43255e6c000124824a",
+    "dataset_b_title": "Inflation, consumer prices (annual %) - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both Cambodia time-series datasets, but they cover different topics: internet usage versus inflation. They are joinable because they share strong common keys at the country and year level (country_name/country_code plus year).",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614c99255e6c0001248251",
+    "dataset_a_title": "Individuals using the Internet in Cambodia from 1990 - 2022",
+    "dataset_b_id": "pd_67613c71255e6c0001248249",
+    "dataset_b_title": "Unemployment, total (% of total labor force) (modeled ILO estimate) - Cambodia, 1991 - 2023",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both Cambodia time-series socioeconomic indicators, but they cover different topics: internet usage versus labor market unemployment. They are joinable because they share a strong geographic key (country/country_code) and a common time dimension (year) for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614c99255e6c0001248251",
+    "dataset_a_title": "Individuals using the Internet in Cambodia from 1990 - 2022",
+    "dataset_b_id": "pd_67612ef4255e6c0001248246",
+    "dataset_b_title": "Cambodia's GDP (current US$) between 1975 to 2023",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are Cambodia-focused national development indicators, so they are thematically related at the broad socioeconomic level. They are also strongly joinable using the shared country-level keys (country_name/country_code) and year for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614c99255e6c0001248251",
+    "dataset_a_title": "Individuals using the Internet in Cambodia from 1990 - 2022",
+    "dataset_b_id": "pd_67612ac9255e6c0001248242",
+    "dataset_b_title": "Cambodia's GDP growth (annual %) from 1983 to 2023",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are national-level Cambodian development indicators, so they fall within the same broad socioeconomic domain. They are joinable because they share a strong geographic key (Cambodia via country_name/country_code) and a common time dimension (year) for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67614347255e6c000124824d",
+    "dataset_a_title": "Access to electricity (% of population) - Cambodia",
+    "dataset_b_id": "pd_67613d43255e6c000124824a",
+    "dataset_b_title": "Inflation, consumer prices (annual %) - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both Cambodia development indicators, but they measure different domains: electricity access versus consumer price inflation. They are joinable because they share a strong common key at the country-year level (country_name/country_code and year), which supports merging for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67613d43255e6c000124824a",
+    "dataset_a_title": "Inflation, consumer prices (annual %) - Cambodia",
+    "dataset_b_id": "pd_676127c6255e6c0001248241",
+    "dataset_b_title": "Population, total - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are country-level development statistics for Cambodia, so they fall within the same broad socioeconomic domain. They are strongly joinable on country (country_name/country_code) and year for time-series analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67613d43255e6c000124824a",
+    "dataset_a_title": "Inflation, consumer prices (annual %) - Cambodia",
+    "dataset_b_id": "pd_6760f7ec255e6c0001248240",
+    "dataset_b_title": "Cambodia population growth (annual %)",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are country-level annual development indicators for Cambodia, so they fall within the same broad socioeconomic domain. They are strongly joinable using the shared country key (country_name/country_code) and year.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67613c71255e6c0001248249",
+    "dataset_a_title": "Unemployment, total (% of total labor force) (modeled ILO estimate) - Cambodia, 1991 - 2023",
+    "dataset_b_id": "pd_676127c6255e6c0001248241",
+    "dataset_b_title": "Population, total - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are country-level socioeconomic statistics for Cambodia, with one focused on labor market unemployment and the other on total population. They share a strong geographic/entity key (country, plus year for time-series alignment), so they are joinable for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67613c71255e6c0001248249",
+    "dataset_a_title": "Unemployment, total (% of total labor force) (modeled ILO estimate) - Cambodia, 1991 - 2023",
+    "dataset_b_id": "pd_6760f7ec255e6c0001248240",
+    "dataset_b_title": "Cambodia population growth (annual %)",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets describe Cambodia at the country level and cover broad socioeconomic indicators, so they are thematically related. They are strongly joinable on shared country keys (country_name/country_code), with year also available for aligned analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67612ef4255e6c0001248246",
+    "dataset_a_title": "Cambodia's GDP (current US$) between 1975 to 2023",
+    "dataset_b_id": "pd_676127c6255e6c0001248241",
+    "dataset_b_title": "Population, total - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are country-level development indicators for Cambodia, covering related economic and demographic context. They are joinable because they share a strong geographic/entity key (country_name/country_code) and the same time dimension (year) for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67612ef4255e6c0001248246",
+    "dataset_a_title": "Cambodia's GDP (current US$) between 1975 to 2023",
+    "dataset_b_id": "pd_6760f7ec255e6c0001248240",
+    "dataset_b_title": "Cambodia population growth (annual %)",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are country-level development indicators related to Cambodia’s economic and demographic conditions, so they are thematically similar. They are also joinable because they share a strong geographic/entity key (country_name/country_code), with year providing the time dimension for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67612ac9255e6c0001248242",
+    "dataset_a_title": "Cambodia's GDP growth (annual %) from 1983 to 2023",
+    "dataset_b_id": "pd_676127c6255e6c0001248241",
+    "dataset_b_title": "Population, total - Cambodia",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are national-level Cambodia statistics covering broad socioeconomic indicators, so they are thematically related. They also share a strong country key (and year), making them joinable for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_67612ac9255e6c0001248242",
+    "dataset_a_title": "Cambodia's GDP growth (annual %) from 1983 to 2023",
+    "dataset_b_id": "pd_6760f7ec255e6c0001248240",
+    "dataset_b_title": "Cambodia population growth (annual %)",
+    "jaccard_score": 0.714,
+    "shared_columns": [
+      "country_name",
+      "indicator_name",
+      "year",
+      "country_code",
+      "indicator_code"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets describe Cambodia’s national-level trends over time, so they are thematically related as country indicators. They can be joined on the shared country and year fields for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_6873a2a43a4a460001a321c9",
+    "dataset_a_title": "Corporate Credit in 2024",
+    "dataset_b_id": "pd_685be81e1b4d5f0001c6816d",
+    "dataset_b_title": "Indicator Tourism and Statistics Official in 2024",
+    "jaccard_score": 0.667,
+    "shared_columns": [
+      "value",
+      "indicator"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": false,
+    "reasoning": "Corporate credit and tourism statistics are different domains, so they are not thematically similar. They also do not share a strong common entity or geographic key beyond generic fields like indicator and value, so they are not meaningfully joinable for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_6873a2a43a4a460001a321c9",
+    "dataset_a_title": "Corporate Credit in 2024",
+    "dataset_b_id": "pd_67c95791c8ee8000013663ab",
+    "dataset_b_title": "Informal Economy Development As of the end of 2024",
+    "jaccard_score": 0.667,
+    "shared_columns": [
+      "value",
+      "indicator"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": false,
+    "reasoning": "Corporate credit is a financial/credit-market dataset, while informal economy development is about the broader informal sector, so they are not thematically the same. They share only normalized fields like indicator and value, without a strong common entity or geographic key for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_6850e9421b4d5f000166ac2f",
+    "dataset_a_title": "Distribution of Total Population by Province Cambodia 2024",
+    "dataset_b_id": "pd_66a8603700604c000123e144",
+    "dataset_b_title": "Cambodia Province List 2025",
+    "jaccard_score": 0.667,
+    "shared_columns": [
+      "province_code",
+      "province"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets are province-level administrative/geographic data for Cambodia, so they are thematically related. They are also strongly joinable on province_code and province, which are direct geographic/entity keys.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_676e7e5293d4f00001fc5740",
+    "dataset_a_title": "Number of Babies Breastfed in The First Hour after Birth in 2018",
+    "dataset_b_id": "pd_674403064aca29000102aa53",
+    "dataset_b_title": "Exported Country Under FTA and GSP-MFN Scheme from Jan - Sep 2024",
+    "jaccard_score": 0.643,
+    "shared_columns": [
+      "may",
+      "april",
+      "february",
+      "july",
+      "september",
+      "august",
+      "june",
+      "march",
+      "january"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": false,
+    "reasoning": "They cover different domains: infant health/nutrition versus international trade and exports. They only share month-based columns, which is a weak key and not sufficient for a meaningful join without a common strong entity like province or country.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_69041b966a965e00074a5eec",
+    "dataset_a_title": "Solicited Projects",
+    "dataset_b_id": "pd_66ab60e8bcc3db0001df66f5",
+    "dataset_b_title": "Unsolicited Project",
+    "jaccard_score": 0.625,
+    "shared_columns": [
+      "project_title",
+      "implementing_agency",
+      "location",
+      "status",
+      "sector"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": false,
+    "reasoning": "Both datasets are about public projects from the Cambodian Ministry of Economy and Finance, so they cover the same general domain. However, they only share broad attributes like project title, agency, location, status, and sector, which are not strong enough to reliably join records at the project level.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_69041b966a965e00074a5eec",
+    "dataset_a_title": "Solicited Projects",
+    "dataset_b_id": "pd_66ab60e7bcc3db0001df66f4",
+    "dataset_b_title": "Solicited Project",
+    "jaccard_score": 0.625,
+    "shared_columns": [
+      "project_title",
+      "implementing_agency",
+      "location",
+      "status",
+      "sector"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets appear to describe the same domain: solicited infrastructure or investment projects managed by the Cambodian Ministry of Economy and Finance. They likely share strong entity keys such as project_title and location, making them suitable for joining for analysis.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_690419b36a965e00074a5eeb",
+    "dataset_a_title": "Unsolicited Projects",
+    "dataset_b_id": "pd_66ab60e8bcc3db0001df66f5",
+    "dataset_b_title": "Unsolicited Project",
+    "jaccard_score": 0.625,
+    "shared_columns": [
+      "project_title",
+      "implementing_agency",
+      "location",
+      "status",
+      "sector"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets appear to cover the same domain: unsolicited projects in Cambodia, with the same normalized fields. They are likely joinable at the project level using shared entity fields such as project_title and related attributes like implementing_agency, location, status, and sector.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_690419b36a965e00074a5eeb",
+    "dataset_a_title": "Unsolicited Projects",
+    "dataset_b_id": "pd_66ab60e7bcc3db0001df66f4",
+    "dataset_b_title": "Solicited Project",
+    "jaccard_score": 0.625,
+    "shared_columns": [
+      "project_title",
+      "implementing_agency",
+      "location",
+      "status",
+      "sector"
+    ],
+    "same_category": false,
+    "similar": true,
+    "joinable": true,
+    "reasoning": "Both datasets describe Cambodian infrastructure/projects and use the same core project-oriented fields, so they cover the same general domain. They should be joinable at least on project_title and potentially on implementing_agency/location for analysis, though a unique project ID would be better.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  },
+  {
+    "dataset_a_id": "pd_66b5921b49eb6c00013c12b6",
+    "dataset_a_title": "The Percentage of Youth Unemployment of total Labor Force Ages 15-24",
+    "dataset_b_id": "pd_66b58b1949eb6c00013c12a7",
+    "dataset_b_title": "The Percentage of population have access to the Internet in Cambodia, 1990 - 2021",
+    "jaccard_score": 0.6,
+    "shared_columns": [
+      "iso_3_code",
+      "year",
+      "country"
+    ],
+    "same_category": false,
+    "similar": false,
+    "joinable": true,
+    "reasoning": "They are both Cambodia development indicators, but one measures youth unemployment and the other measures internet access, so they cover different topics. They are strongly joinable by the shared country-level keys (iso_3_code, country) and year.",
+    "label_source": "llm_openai/gpt-5.4-mini"
+  }
+]

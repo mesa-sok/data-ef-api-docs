@@ -28,7 +28,7 @@ Plain pagination is always complete and duplicate-free.
 Before harvesting, understand the data distribution:
 
 ```bash
-uv run scripts/explore_filters.py
+uv run scripts/explore/explore_filters.py
 ```
 
 This calls `/count-data` and `/filter-options` and prints a breakdown:
@@ -59,7 +59,7 @@ Use these **slug values** when you need to filter later.
 ## Step 2 — Harvest all metadata
 
 ```bash
-DATA_DIR=artifacts uv run scripts/fetch_all_datasets.py
+DATA_DIR=artifacts uv run scripts/harvest/fetch_all_datasets.py
 ```
 
 Internally this does:
@@ -200,7 +200,7 @@ with DataEFClient() as client:
 ```
 
 > **Note:** Slug values for `categories` and `organizations` come from
-> `/filter-options`. Run `explore_filters.py` to list all available slugs.
+> `/filter-options`. Run `scripts/explore/explore_filters.py` to list all available slugs.
 
 ---
 
@@ -239,11 +239,11 @@ datasets whose `updated_at` is newer than your last harvest timestamp.
 
 ```bash
 # Full harvest into artifacts/
-DATA_DIR=artifacts uv run scripts/fetch_all_datasets.py
+DATA_DIR=artifacts uv run scripts/harvest/fetch_all_datasets.py
 
 # Metadata only (skip file-URL collection), quiet
-FETCH_DATA=false VERBOSE=false DATA_DIR=artifacts uv run scripts/fetch_all_datasets.py
+FETCH_DATA=false VERBOSE=false DATA_DIR=artifacts uv run scripts/harvest/fetch_all_datasets.py
 
 # Test with first 10 datasets
-MAX_DATASETS=10 DATA_DIR=/tmp/test uv run scripts/fetch_all_datasets.py
+MAX_DATASETS=10 DATA_DIR=/tmp/test uv run scripts/harvest/fetch_all_datasets.py
 ```

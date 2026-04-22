@@ -2,234 +2,208 @@
 
 ## Project Overview
 
-**data-ef-api-docs** is a Python client library and collection of runnable scripts for the
-[Data EF Public API](https://data.mef.gov.kh/api/v1/) provided by the Ministry of Economy and
-Finance of Cambodia. It exposes typed Pydantic v2 models for every endpoint and ships ready-made
-demo scripts for public datasets, events & news, realtime data (exchange rates, weather, AQI, UV
-index, CSX stock exchange), contact form submission, filter exploration, and bulk data harvesting.
+`data-ef-api-docs` is a Python project centered on the Data EF Public API at `https://data.mef.gov.kh/api/v1/`.
 
-**Key technologies:**
+The repository currently has two main areas:
 
-| Layer | Technology |
-|---|---|
-| Language | Python ≥ 3.12 |
-| Package manager | [uv](https://github.com/astral-sh/uv) ≥ 0.4 |
-| HTTP client | [httpx](https://www.python-httpx.org/) ≥ 0.28 |
-| Data validation | [Pydantic v2](https://docs.pydantic.dev/latest/) |
-| Test framework | pytest + pytest-httpx (fully mocked — no network needed) |
-| Linter/formatter | [Ruff](https://docs.astral.sh/ruff/) |
+- A typed API client in `src/data_ef_api/` built with `httpx` and Pydantic v2.
+- Dataset harvesting, embedding, semantic-search, and evaluation scripts in `scripts/` backed by local artifacts and optional Qdrant / embedding infrastructure.
 
-**Source layout:**
+Treat this as an application repo with a reusable client library inside it, not just a docs-only or scripts-only repo.
 
-```
+## Tech Stack
+
+- Python `>=3.12`
+- Dependency management and command runner: `uv`
+- HTTP client: `httpx`
+- Data models: Pydantic v2
+- Tests: `pytest`, `pytest-httpx`
+- Lint / format: `ruff`
+- Optional semantic-search stack: `qdrant-client`, local embedding server, LLM-assisted labeling/eval scripts
+
+## Repository Layout
+
+```text
 src/data_ef_api/
-├── __init__.py        # re-exports DataEFClient
-├── client.py          # DataEFClient — one method per API endpoint
-├── constants.py       # BASE_URL and enum lists
-└── models/
-    ├── __init__.py
-    ├── enums.py        # SortByEnum, EventsAndNewsCategoryEnum
-    ├── common.py       # ValidationError, HTTPValidationError, Pagination
-    ├── contact.py      # EmailRequest, DashboardTokenRequest
-    ├── errors.py       # per-endpoint 400 / 404 error bodies
-    ├── realtime.py     # Exchange Rate, Weather, AQI, UV, CSX models
-    ├── public_datasets.py
-    └── events_news.py
+  client.py                  # DataEFClient, one method per endpoint pattern
+  constants.py               # Base URL and shared constants
+  models/                    # Pydantic models grouped by API area
 
-scripts/               # standalone demo scripts (run with uv run, some are plain python3)
 tests/
-└── test_client.py     # 38 pytest tests using httpx mocking
-docs/                  # extended Markdown documentation per feature area
-artifacts/             # generated JSON/CSV outputs from harvest scripts
-```
+  test_client.py             # Mocked client tests
 
----
+scripts/
+  explore/                   # one-off API demos & quick inspections
+    public_datasets.py
+    events_news.py
+    realtime_api.py
+    contact.py
+    explore_filters.py
+  harvest/                   # bulk fetching & column metadata
+    fetch_all_datasets.py
+    fetch_categories.py
+    fetch_organizations.py
+    fetch_csv_datasets.py
+    fetch_column_metadata.py
+    standalone_fetch_column_metadata.py
+    standalone_export_datasets.py
+  search/                    # embedding, vector DB, similarity queries
+    embed_datasets.py
+    embed_columns.py
+    search_datasets.py
+    find_dataset_similarity.py
+    find_similar_datasets.py
+    nearest_neighbors_by_dataset_id.py
+    find_similar_datasets.ipynb
+  eval/                      # evaluation set generation & LLM labeling
+    generate_eval_sets.py
+    label_pairs_llm.py
+    run_eval.py
+
+docs/
+  client-reference.md
+  scripts-guide.md
+  bulk-harvesting.md
+  semantic-search.md
+  models-reference.md
+  data-schemas.md
+```
 
 ## Setup Commands
 
+Install dependencies for normal development:
+
 ```bash
-# 1. Install uv (if not present)
-pip install uv          # or: curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# 2. Install all dependencies, including dev extras
 uv sync --all-groups
+```
 
-# 3. Verify installation — import the client
+Quick import smoke test:
+
+```bash
 uv run python -c "from data_ef_api import DataEFClient; print('OK')"
 ```
 
-> No `.env` file or API key is required. The Data EF Public API is open and unauthenticated.
+There is no required API key for the public Data EF API.
 
----
+## Core Development Workflow
 
-## Development Workflow
-
-```bash
-# Run a demo script against the live API
-uv run scripts/public_datasets.py
-uv run scripts/realtime_api.py
-uv run scripts/events_news.py
-uv run scripts/contact.py           # edit placeholder values first
-uv run scripts/explore_filters.py   # lists categories / orgs / formats
-uv run scripts/fetch_all_datasets.py  # bulk-harvest ALL metadata + file URLs
-
-# Bulk harvest — environment-variable overrides
-MAX_DATASETS=20               uv run scripts/fetch_all_datasets.py  # first 20 only
-FETCH_DATA=true               uv run scripts/fetch_all_datasets.py  # fetch data index + file URLs
-DATA_DIR=artifacts/custom     uv run scripts/fetch_all_datasets.py  # custom output dir
-
-# Plain python standalone scripts (zero dependencies)
-python3 scripts/standalone_export_datasets.py
-
-# Named entry-points (installed by uv sync)
-uv run data-ef-public-datasets
-uv run data-ef-events-news
-uv run data-ef-realtime-api
-```
-
-**Base URL:** `https://data.mef.gov.kh` — all client methods call `https://data.mef.gov.kh/api/v1/`.
-
----
-
-## Testing Instructions
+Run tests after changing the client, models, or request/response behavior:
 
 ```bash
-# Run the full test suite (38 tests, no network access)
 uv run pytest
-
-# Verbose output with test names
-uv run pytest -v
-
-# Run a subset of tests by keyword
-uv run pytest -k "exchange_rate"
-uv run pytest -k "weather"
-
-# Run a single specific test
-uv run pytest tests/test_client.py::test_get_public_datasets -v
-
-# Show coverage (if pytest-cov is added)
-uv run pytest --tb=short
 ```
 
-**Important:** Tests use `pytest-httpx` to intercept every HTTP call made by `httpx`. **No real
-network requests are made.** When adding a new endpoint:
-1. Add a matching mock in `tests/test_client.py` using `httpx_mock.add_response(...)`.
-2. Assert the returned Pydantic model fields.
-3. Test at least one error path (400 / 404) for endpoints that define error shapes.
-
-Test file: `tests/test_client.py`
-
----
-
-## Code Style
+Run lint and formatting checks before finishing a change:
 
 ```bash
-# Lint source and test code
 uv run ruff check src/ tests/
-
-# Auto-fix safe issues
-uv run ruff check --fix src/ tests/
-
-# Format (ruff format is the formatter)
 uv run ruff format src/ tests/
 ```
 
-**Conventions:**
-- Line length: **99 characters** (configured in `pyproject.toml → [tool.ruff]`).
-- Source root is `src/` — all imports use the `data_ef_api` package name.
-- All response models are Pydantic v2 (`BaseModel`). Use `model_config = ConfigDict(extra="allow")`
-  for endpoints whose OpenAPI schema is `{}` (flexible/undocumented shapes).
-- Fields that appear as `anyOf: [{type: X}, {type: null}]` in the OpenAPI spec are typed `X | None`.
-- New endpoint methods belong in `src/data_ef_api/client.py` inside the `DataEFClient` class.
-- New response shapes belong in the appropriate model file under `src/data_ef_api/models/`.
-- Publicly re-export new models from `src/data_ef_api/models/__init__.py`.
+If you modify scripts heavily, it is reasonable to run the specific script you touched with `uv run` in addition to tests.
 
----
+## API Client Conventions
 
-## Adding a New API Endpoint
+- Keep endpoint methods on `DataEFClient` in `src/data_ef_api/client.py`.
+- Put new response/request models under `src/data_ef_api/models/` in the closest existing module.
+- Re-export public models from `src/data_ef_api/models/__init__.py` when they are part of the supported surface.
+- Follow existing typing style: prefer explicit optional types like `X | None`.
+- Preserve current parsing patterns instead of introducing new abstraction layers unless there is a clear reuse benefit.
+- Raise or propagate `httpx` errors consistently with the existing client behavior.
 
-1. **Model** — create or extend a model file in `src/data_ef_api/models/`.
-2. **Re-export** — add the new model to `src/data_ef_api/models/__init__.py`.
-3. **Client method** — add a method to `DataEFClient` in `src/data_ef_api/client.py` following the
-   existing pattern (`self._client.get(...)`, parse with `TypeAdapter` or `.model_validate()`).
-4. **Demo script** — update or create a script under `scripts/` to exercise the new endpoint.
-5. **Tests** — add at least one happy-path and one error-path test in `tests/test_client.py`.
-6. **Docs** — update the relevant file under `docs/` (or `README.md` for top-level endpoints).
+When adding a new endpoint, usually update all of these:
 
----
+1. `src/data_ef_api/models/...`
+2. `src/data_ef_api/models/__init__.py`
+3. `src/data_ef_api/client.py`
+4. `tests/test_client.py`
+5. Relevant docs in `README.md` or `docs/`
 
-## Bulk Data Harvesting
+## Testing Guidance
 
-The recommended approach is **plain pagination with `page_size=10000`** — a single request covers
-the entire catalogue with no duplicates.
+- Tests for the client are in `tests/test_client.py`.
+- The suite uses `pytest-httpx`; keep tests fully mocked.
+- Do not add tests that depend on real network access.
+- For new client methods, add at least one happy-path assertion and one error-path assertion when the endpoint has meaningful error behavior.
+- Assert parsed model behavior, not just raw JSON equality.
 
-| Approach | Requests | Duplicate risk | Best for |
-|---|---|---|---|
-| Plain pagination `page_size=10000` | 1 (or a few) | None | Full catalogue harvest |
-| Category filter | 1 per category | Yes (cross-category datasets) | Category views |
-| Organisation filter | 1 per org | Yes (shared datasets) | Org-specific views |
-
-Output files written by `fetch_all_datasets.py`:
-
-- `artifacts/metadata.json` — array of all dataset metadata records
-- `artifacts/data_index.json` — per-dataset data access method (`"file"` or `"json"`)
-
-To download all files after harvesting:
+Useful commands:
 
 ```bash
-jq -r '.[] | select(.method=="file") | .files[] | .url' artifacts/data_index.json \
-  | xargs -P 4 -I{} wget -q -P artifacts/files/ {}
+uv run pytest -v
+uv run pytest tests/test_client.py
+uv run pytest tests/test_client.py -k weather
 ```
 
----
+## Script Workflows
 
-## Key Enumerations & Constants
+API exploration / harvesting scripts:
 
-### `SortByEnum` (for `get_public_datasets`)
+```bash
+uv run scripts/explore/public_datasets.py
+uv run scripts/explore/events_news.py
+uv run scripts/explore/realtime_api.py
+uv run scripts/explore/explore_filters.py
+uv run scripts/harvest/fetch_all_datasets.py
+```
 
-`MOST_RELEVANT` · `MOST_DOWNLOADED` · `RECENTLY_UPDATED` · `MOST_POPULAR` · `NEWEST`
+Some scripts write outputs under `artifacts/`. Do not casually rename output files or directories without checking related docs and downstream scripts.
 
-### `EventsAndNewsCategoryEnum`
+Standalone scripts prefixed with `standalone_` may be intended to run without the full package import path assumptions. Preserve that distinction unless you are deliberately consolidating workflows.
 
-`blog` · `events_and_news`
+## Semantic Search And Embeddings
 
-### Provinces (weather / AQI / UV endpoints)
+The repo also includes optional semantic-search tooling documented in `docs/semantic-search.md`.
 
-All 25 Cambodian provinces: `Phnom Penh` · `Siem Reap` · `Battambang` · `Sihanoukville` ·
-`Kampot` · `Kep` · `Takeo` · `Koh Kong` · `Kratie` · `Kampong Thom` · `Svay Rieng` ·
-`Mondulkiri` · `Banteay Meanchey` · `Kandal` · `Prey Veng` · `Kampong Chhnang` · `Strung Treng` ·
-`Preah Vihear` · `Tboung Khmum` · `Pailin` · `Ratanakiri` · `Kampong Speu` · `Kampong Cham` ·
-`Oddar Meanchey` · `Pursat`
+Typical commands:
 
-### Currency IDs (exchange-rate endpoint)
+```bash
+uv run scripts/search/embed_datasets.py
+uv run scripts/search/search_datasets.py "budget allocation"
+uv run scripts/search/embed_columns.py
+uv run scripts/eval/run_eval.py
+```
 
-`AUD` · `CAD` · `CHF` · `CNH` · `CNY` · `EUR` · `GBP` · `HKD` · `IDR` · `INR` · `JPY` ·
-`KRW` · `LAK` · `MMK` · `MYR` · `NZD` · `PHP` · `SDR` · `SEK` · `SGD` · `THB` · `TWD` ·
-`VND` · `USD`
+Important notes:
 
----
+- Some of these scripts expect local services or models, such as a local embedding API or Qdrant storage.
+- Common environment variables referenced by docs/scripts include `EMBEDDING_API_BASE`, `COLLECTION_NAME`, `BATCH_SIZE`, `DATA_DIR`, `MAX_DATASETS`, `FETCH_DATA`, and `VERBOSE`.
+- `artifacts/qdrant_storage/` is persistent local state for vector search workflows.
 
-## Pull Request Guidelines
+Do not assume semantic-search scripts are covered by the main pytest suite.
 
-- **Title format:** `[component] Brief description`
-  - Components: `client`, `models`, `scripts`, `tests`, `docs`, `ci`
-  - Example: `[client] Add /realtime-api/new-endpoint method`
-- **Required checks before merging:**
-  - `uv run ruff check src/ tests/` — must pass with zero errors
-  - `uv run pytest` — all 38+ tests must pass
-- **Commit style:** Imperative mood, present tense. Example: `Add WeatherResponse model`.
-- The `artifacts/` directory contains harvested snapshots of the API data.
+## Code Style
 
----
+- Ruff line length is `99`.
+- Use the `src/` layout correctly; imports should resolve through `data_ef_api`.
+- Keep changes minimal and local when extending the client or models.
+- Match existing file organization before creating new modules.
+- Prefer ASCII unless a file already requires Unicode content.
 
-## Troubleshooting & Gotchas
+## Documentation Expectations
 
-- **`httpx.HTTPStatusError` on 400/404:** Endpoints with documented error shapes (exchange rate,
-  weather, AQI, UV, CSX) return structured JSON bodies. Catch and inspect `e.response.json()`.
-- **`uv sync` vs `uv sync --all-groups`:** Plain `uv sync` skips the `dev` dependency group
-  (pytest, ruff). Always use `--all-groups` for development.
-- **Flexible models:** Endpoints whose OpenAPI schema is `{}` use `extra="allow"` — they accept any
-  server-returned payload. New fields added by the server will be accessible via `model.model_extra`.
-- **`artifacts/` directory:** Created automatically by harvest scripts; tracked by git.
-- **No auth required:** All API calls go to `https://data.mef.gov.kh/api/v1/` with no API key.
-- **Locale parameter:** `get_public_dataset(id, locale=...)` accepts `"en"` or `"km"` (Khmer).
+Update documentation when behavior changes:
+
+- `README.md` for top-level usage or API examples
+- `docs/client-reference.md` for client surface changes
+- `docs/scripts-guide.md` for script behavior or new scripts
+- `docs/semantic-search.md` for embedding/search pipeline changes
+- `docs/data-schemas.md` when generated artifact structure changes
+
+## Pull Request / Change Hygiene
+
+Before finishing substantial code changes, run:
+
+```bash
+uv run ruff check src/ tests/
+uv run pytest
+```
+
+If you changed script-only logic that is not exercised by tests, mention what you ran manually and what remains unverified.
+
+## Gotchas
+
+- `uv sync --all-groups` is required for dev tools; plain `uv sync` may omit them.
+- The public API itself is unauthenticated, but some local semantic-search tooling may depend on local services or model endpoints.
+- `tests/test_client.py` currently adjusts `sys.path` directly; avoid large test harness changes unless needed.
+- `artifacts/` contains generated data and may be intentionally tracked for some workflows. Do not delete or rewrite large generated outputs unless the task requires it.

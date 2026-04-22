@@ -34,7 +34,7 @@ The `embed_datasets.py` script identifies all harvested datasets and builds the 
 
 ```bash
 # Process all datasets (805 total)
-uv run scripts/embed_datasets.py
+uv run scripts/search/embed_datasets.py
 ```
 
 ### Configuration
@@ -48,7 +48,7 @@ You can override the default batch size or collection name via environment varia
 Once the embeddings are stored, you can use the search utility to find relevant datasets:
 
 ```bash
-uv run scripts/search_datasets.py "government financial allocations and budget indicators"
+uv run scripts/search/search_datasets.py "government financial allocations and budget indicators"
 ```
 
 ### Example Output
