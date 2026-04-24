@@ -62,8 +62,37 @@ from typing import Any
 import click
 from dotenv import load_dotenv
 from litellm import completion
+from pydantic import BaseModel, Field
 
 load_dotenv()
+
+
+# ---------------------------------------------------------------------------
+# Pydantic models for the LLM's structured output
+# ---------------------------------------------------------------------------
+
+
+class DatasetQuestions(BaseModel):
+    """Questions generated for a single dataset, keyed by its short md5 id."""
+
+    id: str = Field(
+        ...,
+        description=("Short md5-derived dataset id, echoed verbatim from the input prompt."),
+    )
+    questions: list[str] = Field(
+        default_factory=list,
+        description="Natural-language evaluation questions for this dataset.",
+    )
+
+
+class QuestionBatchResponse(BaseModel):
+    """Top-level structured output returned by the LLM for one batch."""
+
+    results: list[DatasetQuestions] = Field(
+        default_factory=list,
+        description="One entry per dataset in the batch, in any order.",
+    )
+
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -150,7 +179,7 @@ SYSTEM_PROMPT = """You are an analyst generating evaluation questions for a\
  temporal, and geographic. Each question must be self-contained and\
  phrased in natural English.
 
-Return ONLY a JSON object of the form:
+Return ONLY a JSON object matching this schema:
 {
   "results": [
     {"id": "<short_id>", "questions": ["q1", "q2", ...]}
@@ -185,7 +214,13 @@ def call_llm(
     min_questions: int,
     max_retries: int,
 ) -> dict[str, list[str]]:
-    """Call the LLM once for a batch, returning ``{short_id: [questions]}``."""
+    """Call the LLM once for a batch, returning ``{short_id: [questions]}``.
+
+    The LLM response is parsed into :class:`QuestionBatchResponse` (Pydantic v2)
+    so downstream code works with typed objects instead of raw dicts. We pass
+    the Pydantic model as ``response_format`` which LiteLLM converts to the
+    provider's structured-output schema when supported.
+    """
     user_prompt = build_user_prompt(batch, min_questions)
     last_error: Exception | None = None
     for attempt in range(1, max_retries + 1):
@@ -196,34 +231,33 @@ def call_llm(
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
                 ],
-                response_format={"type": "json_object"},
+                response_format=QuestionBatchResponse,
                 temperature=1.0,  # GPT-5.4 models typically require temperature=1
                 reasoning_effort="low",
             )
             raw = response.choices[0].message.content or ""
-            data = json.loads(raw)
-            results = data.get("results") or []
+            parsed = QuestionBatchResponse.model_validate_json(raw)
 
             # Map results by id; fall back to positional alignment if the LLM
             # dropped/renamed ids so we still get partial progress.
             by_id: dict[str, list[str]] = {}
             expected_ids = [sid for sid, _ in batch]
-            for idx, item in enumerate(results):
-                rid = item.get("id")
+            for idx, item in enumerate(parsed.results):
+                rid = item.id
                 if rid not in expected_ids and idx < len(expected_ids):
                     rid = expected_ids[idx]
-                questions = [
-                    q for q in item.get("questions", []) if isinstance(q, str) and q.strip()
-                ]
-                # De-duplicate while preserving order.
+                # De-duplicate while preserving order; drop blanks.
                 seen: set[str] = set()
                 unique: list[str] = []
-                for q in questions:
-                    key = q.strip().lower()
+                for q in item.questions:
+                    text = q.strip()
+                    if not text:
+                        continue
+                    key = text.lower()
                     if key in seen:
                         continue
                     seen.add(key)
-                    unique.append(q.strip())
+                    unique.append(text)
                 if rid:
                     by_id[rid] = unique
             return by_id
