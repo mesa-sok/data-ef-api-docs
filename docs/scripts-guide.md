@@ -245,3 +245,48 @@ See [Data Schemas](data-schemas.md) for the full structure of each file.
     data_index.json — 142 records
 ============================================================
 ```
+
+---
+
+## `generate_dataset_questions.py`
+
+Data pipeline that uses **GPT-5.4-mini via LiteLLM** to generate at least
+**10 evaluation questions per dataset**, processing datasets **5 at a time**
+in a single LLM call. To save tokens, the LLM prompt and structured output
+reference each dataset by a short `md5(dataset_id)[:12]` id rather than the
+full slug. A separate id map re-links those short ids back to full dataset
+records.
+
+```bash
+uv run scripts/eval/generate_dataset_questions.py
+uv run scripts/eval/generate_dataset_questions.py --limit 20
+uv run scripts/eval/generate_dataset_questions.py --batch-size 5 --min-questions 12
+uv run scripts/eval/generate_dataset_questions.py --dry-run --limit 5   # inspect prompt
+```
+
+### CLI options
+
+| Flag | Default | Description |
+|---|---|---|
+| `--limit` | *(all)* | Max datasets to process. |
+| `--batch-size` | `5` | Datasets per LLM call. |
+| `--min-questions` | `10` | Minimum questions per dataset. |
+| `--model` | `openai/gpt-5.4-mini` | LiteLLM model route (env: `QUESTION_MODEL`). |
+| `--resume/--no-resume` | resume | Skip short ids already in the checkpoint. |
+| `--max-retries` | `3` | Retries per batch on LLM / JSON errors. |
+| `--dry-run` | off | Print the first batch prompt and exit without calling the LLM. |
+
+### Environment
+
+| Variable | Description |
+|---|---|
+| `OPENAI_API_KEY` | Required for the `openai/gpt-5.4-mini` LiteLLM route. |
+| `QUESTION_MODEL` | Optional override of the default model route. |
+
+### Output files (under `artifacts/eval/`)
+
+| File | Description |
+|---|---|
+| `dataset_questions.json` | List of `{id, dataset_id, name, questions}` records. |
+| `dataset_id_map.json` | Mapping `short_id -> {dataset_id, name}`. |
+| `questions_checkpoint.json` | Sorted short ids already processed (resume support). |
